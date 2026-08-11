@@ -24,9 +24,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout current main
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Set up Python
@@ -55,20 +56,39 @@ jobs:
         run: python src/gerar_readme.py
 
       - name: Commit generated files
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md data/videos_canal_youtube.xlsx videos/
-          git diff --cached --quiet && exit 0
-          git commit -m "Update YouTube catalog"
 
           for attempt in 1 2 3; do
             git fetch origin main
-            git rebase origin/main
+
+            # A rerun may start from the historical SHA of the original event.
+            # If main advanced, discard only the generated working state, move to
+            # the current main, and regenerate instead of rebasing binary files.
+            if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+              echo "main advanced; regenerating catalog on latest origin/main."
+              git reset --hard origin/main
+              python src/extrair_videos_youtube.py --modo api --saida data/videos_canal_youtube.xlsx
+              python src/gerar_readme.py
+            fi
+
+            git add README.md data/videos_canal_youtube.xlsx videos/
+
+            if git diff --cached --quiet; then
+              echo "Catalog is already up to date."
+              exit 0
+            fi
+
+            git commit -m "Update YouTube catalog"
+
             if git push origin HEAD:main; then
               exit 0
             fi
-            echo "Push attempt ${attempt} failed because main advanced; retrying."
+
+            echo "Push attempt ${attempt} failed because main advanced; regenerating."
           done
 
           echo "Unable to push generated catalog after 3 attempts."
