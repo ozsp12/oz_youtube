@@ -4,6 +4,13 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 9 * * 1"
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - "requirements.txt"
+      - ".github/workflows/sync-youtube.yml"
 
 permissions:
   contents: write
