@@ -5,6 +5,7 @@ workbook with title, description, URL, publication date, and duration.
 """
 
 import argparse
+import os
 import re
 import sys
 from datetime import datetime
@@ -186,15 +187,20 @@ def principal():
     analisador.add_argument("--modo", choices=["api", "ytdlp"], default="ytdlp")
     analisador.add_argument(
         "--chave",
-        default=None,
-        help="chave da YouTube Data API (modo api)",
+        default=os.environ.get("YOUTUBE_API_KEY"),
+        help=(
+            "chave da YouTube Data API (modo api); se omitida, usa a variável "
+            "de ambiente YOUTUBE_API_KEY"
+        ),
     )
     analisador.add_argument("--saida", default=ARQUIVO_DE_SAIDA)
     argumentos = analisador.parse_args()
 
     if argumentos.modo == "api":
         if not argumentos.chave:
-            analisador.error("o modo api exige --chave")
+            analisador.error(
+                "o modo api exige --chave ou a variável de ambiente YOUTUBE_API_KEY"
+            )
         registros = coletar_por_interface_oficial(
             argumentos.chave, IDENTIFICADOR_DO_CANAL
         )
