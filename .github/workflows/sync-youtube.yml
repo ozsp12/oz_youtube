@@ -12,6 +12,10 @@ on:
       - "requirements.txt"
       - ".github/workflows/sync-youtube.yml"
 
+concurrency:
+  group: youtube-catalog-sync
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -22,6 +26,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -55,4 +61,15 @@ jobs:
           git add README.md data/videos_canal_youtube.xlsx videos/
           git diff --cached --quiet && exit 0
           git commit -m "Update YouTube catalog"
-          git push
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed because main advanced; retrying."
+          done
+
+          echo "Unable to push generated catalog after 3 attempts."
+          exit 1
