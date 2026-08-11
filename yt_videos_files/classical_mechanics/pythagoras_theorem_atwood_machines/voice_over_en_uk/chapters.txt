@@ -1,0 +1,47 @@
+00:00 – Pythagoras and the Atwood Machine (33s)
+Physics and geometry meet in the Atwood machine.
+
+00:33 – Geometry of the System (43s)
+Angles, masses, and the triangular setup of the ropes.
+
+01:16 – Acting Forces (50s)
+Forces, tensions, and the role of Newton’s laws.
+
+02:06 – Equilibrium Conditions (41s)
+Force balance at the central junction.
+
+02:47 – Decomposing the Forces (54s)
+Breaking tensions into horizontal and vertical components.
+
+03:41 – Parallelogram Rule (27s)
+Using vector addition to relate masses and angles.
+
+04:08 – Equations of the System (26s)
+Four main equations combining dynamics and geometry.
+
+04:34 – Mass Relations (20s)
+Simplifying the system using key equations.
+
+04:54 – Eliminating Angles (16s)
+Trigonometric identities link the angles together.
+
+05:10 – Using the Angle Sum (11s)
+Angle sum formula simplifies the relations further.
+
+05:21 – Cosine of the Sum (21s)
+From geometry to pure trigonometry.
+
+05:42 – Final Mass Relation (49s)
+Deriving Pythagoras from mass equilibrium.
+
+06:31 – Right Angle Condition (18s)
+Linking right angles to mass configurations.
+
+06:49 – Geometric Triangle (34s)
+When rope lengths and pulley distance obey Pythagoras.
+
+07:23 – Physics to Geometry (23s)
+How forces transformed into a mathematical theorem.
+
+07:46 – Conclusion (20s)
+The Atwood machine reveals the elegance of Pythagoras.

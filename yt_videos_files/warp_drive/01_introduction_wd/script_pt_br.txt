@@ -1,0 +1,29 @@
+# Slide 01 (00:00:14)
+Em 1994, o físico teórico Miguel Alcubierre em seu artigo inovador introduziu um novo mecanismo de propulsão que manipula o espaçotempo em vez de depender da aceleração convencional.
+
+# Slide 02 (00:00:26)
+A proposta de Alcubierre envolvia a criação de uma bolha de dobra envolvendo a nave espacial, movendo efetivamente o próprio espaçotempo ao redor da nave, em vez de mover a nave através do espaçotempo. À frente da bolha, o espaçotempo se comprime, reduzindo a distância até o destino. Atrás da bolha, o espaçotempo se expande, aumentando a distância em relação ao ponto de origem.
+
+# Slide 03 (00:00:10)
+Essa configuração cria um efeito semelhante a uma esteira, onde a nave permanece em seu referencial local enquanto é transportada pela distorção dinâmica do espaçotempo.
+
+# Slide 04 (00:00:20)
+Dentro da bolha de dobra, os princípios da relatividade especial são respeitados, onde nenhum objeto pode exceder a velocidade da luz. A bolha de dobra se assemelha a uma casca e possui uma espessura que define um espaçotempo curvo, criando uma junção com o espaçotempo externo, globalmente plano.
+
+# Slide 05 (00:00:15)
+Alcubierre utilizou o formalismo 3+1 para descrever matematicamente o espaçotempo de sua bolha de dobra. Essa abordagem decompõe o espaçotempo quadridimensional em hipersuperfícies tridimensionais de tempo coordenada constante.
+
+# Slide 06 (00:00:14)
+O formalismo é também conhecido como decomposição ADM, nomeado em homenagem aos físicos Richard Arnowitt, Stanley Deser e Charles Misner, que o desenvolveram na década de 1950.
+
+# Slide 07 (00:00:27)
+A função lapso mede o tempo entre hipersuperfícies adjacentes e determina como o tempo coordenado se relaciona com o tempo próprio de observadores que se movem ortogonalmente entre as hipersuperfícies. O vetor de desvio (shift vector) relaciona as coordenadas espaciais entre hipersuperfícies adjacentes e representa o deslocamento das coordenadas espaciais conforme o tempo avança. 
+
+# Slide 08 (00:00:20)
+Na métrica de Alcubierre, o vetor de desvio é responsável pelo efeito de dobra que permite o movimento aparentemente superluminal e regula a forma da bolha de dobra. A função lapso α é definida igual à unidade, enquanto o vetor de desvio βᵢ induz um impulso na direção de viagem da bolha. 
+
+# Slide 09 (00:00:28)
+O espaçotempo de Alcubierre mantém a hiperbolicidade global, uma propriedade crucial que garante um problema de valor inicial bem definido para as equações de Einstein. Essa propriedade assegura que a evolução do espaçotempo pode ser unicamente determinada a partir das condições iniciais. A construção evita explicitamente curvas temporais fechadas, que permitiriam viagens no tempo para o passado e violariam a causalidade.
+
+# Slide 10 (00:00:26)
+Alcubierre calculou a densidade de energia conforme medida por observadores eulerianos, que estão sempre em queda livre ao longo de uma geodésica temporal. Ele descobriu que os observadores eulerianos, que estão longe da bolha de dobra, medem uma densidade de energia negativa, violando as condições de energia fraca e dominante. Esta é uma das principais limitações da teoria do motor de dobra.

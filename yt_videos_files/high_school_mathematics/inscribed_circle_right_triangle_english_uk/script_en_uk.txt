@@ -1,0 +1,69 @@
+Slide 1: Introduction – The Problem (50s)
+
+Today, we will explore a classic problem in Euclidean geometry: inscribing a circle within a right triangle. The triangle has sides labeled A, B, and C, and the inscribed circle, known as the incircle, touches all three sides of the triangle at exactly one point each. Our objective is to determine the radius R of this circle expressed solely in terms of the sides of the right triangle.
+
+Rather than memorizing formulas, we will derive the result step by step, relying on fundamental geometric principles and algebraic reasoning. By the conclusion, we will obtain a compact expression for r and understand precisely why it works.
+
+This problem elegantly combines geometry, algebra, and logical deduction, making it a perfect example of the beauty and rigor of mathematical problem-solving.
+
+
+###############################################################################################################################
+Slide 2: Geometric Relations (69s)
+
+In this figure, we illustrate how the radius R relates to the sides of the triangle. The center of the circle lies at the intersection of the angle bisectors, and each radius is perpendicular to one of the sides. Because the circle is tangent to the three sides, the distances from the vertices to the points of tangency decompose each side into two segments.
+
+Alongside the segment that connects the points A and B, the segment from point A to the point of tangency measures R, while the remaining portion measures B minus R. Similarly, alongside the segment that connects the points A and C, the segment from point A to the point of tangency measures R, and the remaining portion measures C minus R. The same reasoning applies to the line segment connecting points B and C, where the portion from the point of tangency to point B equals B minus R, and from the point of tangency to point C equals C minus R.
+
+This decomposition enables us to express the entire set of side lengths as sums of these segments, which will form the foundation for the equations linking the sides of the triangle to the unknown radius R.
+
+
+###############################################################################################################################
+Slide 3: Segment Decomposition and Tangent Theorem (74s)
+
+In this figure, we explicitly translate the geometry into algebraic relationships. Alongside the segment A B, the segment from point A to the point where the circle touches the side measures R, and the remaining portion from the point of tangency to point B measures B minus R. Similarly, alongside the segment A C, the segment from point A to the point of tangency measures R, while the remaining part from the point of tangency to point C measures C minus R. Finally, on the segment B C, the segment from point B to the point of tangency measures B minus R, and from the point of tangency to point C measures C minus R.
+
+These equalities arise from the tangent theorem of line segments to circles, which states: if two segments begin at the same point and are both tangent to the same circle, then they have the same length. This theorem is easily demonstrated via triangle similarities. Applying this theorem to each vertex of the triangle ensures that the distances from each vertex to its two points of tangency with the inscribed circle are equal, providing the algebraic structure we need to express the sides in terms of the radius R.
+
+
+###############################################################################################################################
+Slide 4: Deriving the Formula (50s)
+
+We now combine all the relationships established so far. The length of side A, which stretches from point B to point C, is composed of two segments: from point B to the point of tangency with the circle, which measures B minus R, and from that point of tangency to point C, which measures C minus R. Summing these two segments gives the equation: A equals B minus R plus C minus R.
+
+We now collect like terms on the right-hand side of the equation. This yields: a equals B plus C minus two R. This is easily solved with very few moves, which I leave to you as an exercise. 
+
+This final formula expresses the radius of the inscribed circle entirely in terms of the three sides of the right triangle, completing the derivation using only geometric properties and the tangent theorem.
+
+
+###############################################################################################################################
+Slide 5: Area Decomposition (41s)
+
+We now approach the problem from a different perspective, using the area of the triangle. Consider the right triangle with vertices labeled A, B, and C, and let the center of the inscribed circle be labeled O. The total area of triangle A B C can be written as the sum of the areas of the three smaller triangles: triangle A O C, triangle B O C, and triangle A O B.
+
+Each of these smaller triangles has one side equal to the radius r of the inscribed circle and another side equal to one of the original triangle's sides. This decomposition will allow us to express the area of the entire triangle directly in terms of the radius R.
+
+
+###############################################################################################################################
+Slide 6: Area Decomposition into Sub-Triangles (59s)
+
+On this slide, we calculate the area of the original right triangle and the three smaller triangles formed by the incenter. The area of the main triangle A B C is given by one-half times B times C, because for a right triangle, the legs B and C serve as base and height.
+
+Next, we compute the areas of the three smaller triangles: A O C, B O C, and A O B. Each of these triangles has one side equal to the radius R of the inscribed circle and another side equal to one of the sides of the main triangle. Therefore, the area of triangle A O C is one-half times R times C, the area of triangle B O C is one-half times R times A, and the area of triangle A O B is one-half times R times B.
+
+This setup prepares us to sum these three smaller areas and equate them to the area of the main triangle, allowing us to solve for the radius R in terms of the sides A, B, and C.
+
+
+###############################################################################################################################
+Slide 7: Solving for the Radius Using the Area Equation (51s)
+
+On this slide, we bring all the pieces together. First, we recall that the area of the main right triangle A B C equals one-half times B times C. Next, we saw that the area of triangle A O C equals one-half times R times C, the area of triangle B O C equals one-half times R times A, and the area of triangle A O B equals one-half times R times B.
+
+Now, we write the equation: the area of triangle A B C equals the sum of the areas of triangles A O C, B O C, and A O B. Substituting everything in terms of the sides A, B, C, and the radius R, we then achieve a simple expression relating all of the given sides and the radius. This expression is easily solved for R. We now find a second formula for the radius of the inscribed circle.
+
+
+###############################################################################################################################
+Slide 8: Connecting the Formulas and the Pythagorean Theorem (25s)
+
+On this slide, we compare the two formulas for the radius r. One formula expresses R as B times C divided by the sum of all three sides of the right triangle. The other formula expresses R as the sum of B plus C minus A, all divided by two.
+
+We set these two expressions equal and perform some algebra, arriving at the Pythagorean theorem that relates the three sides of a right triangle.

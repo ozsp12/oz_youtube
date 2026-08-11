@@ -1,0 +1,11 @@
+No ano de 1905, Albert Einstein publicou um artigo que alteraria para sempre a nossa compreensão do universo físico. Nele havia uma equação curta, mas revolucionária: E é igual a m c ao quadrado. Essa fórmula, talvez a mais famosa de toda a ciência, expressa a equivalência entre massa e energia. A letra E representa energia, m representa massa, e c é a velocidade da luz no vácuo.
+
+A equação surgiu da Teoria da Relatividade Especial de Einstein, uma reinterpretação do espaço e do tempo. Nessa teoria, Einstein demonstrou que as leis da física são as mesmas para todos os observadores não acelerados, e que a velocidade da luz é constante, independentemente do movimento do observador.
+
+A massa de repouso, também chamada de massa invariante, é uma propriedade fundamental da matéria, independente de sua velocidade. Partículas sem massa, como os fótons, possuem massa invariante igual a zero, mas ainda assim carregam momento e energia.
+
+O princípio da equivalência também implica que, em reações químicas ou nucleares, quando a massa parece ser perdida, uma quantidade correspondente de energia é liberada, frequentemente na forma de radiação ou calor. Esse princípio é central para áreas como a física nuclear, a física de partículas e a astrofísica.
+
+A percepção de Einstein lançou as bases para o desenvolvimento da energia nuclear e das armas atômicas, explicou como as estrelas geram energia por meio da fusão nuclear, e abriu caminho para a criação de partículas em aceleradores de alta energia, onde energia se transforma em matéria.
+
+Historicamente, o conceito de equivalência massa–energia foi antecipado em parte pelo matemático e físico francês Henri Poincaré. No entanto, foi Einstein quem o propôs pela primeira vez como um princípio geral, fundamentado nas simetrias do espaço e do tempo. Esse princípio apareceu pela primeira vez em seu artigo de 1905, “A inércia de um corpo depende do seu conteúdo de energia?”, um dos quatro trabalhos revolucionários de seu annus mirabilis.

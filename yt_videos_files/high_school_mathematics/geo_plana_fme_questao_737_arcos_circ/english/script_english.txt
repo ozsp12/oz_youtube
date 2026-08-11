@@ -1,0 +1,79 @@
+slide 01:
+In this video, we shall analyze Problem 737, found on page 296 of the classical collection Fundamentals of Elementary Mathematics, written by the Brazilian mathematician Gelson Iezzi and collaborators. The collection is one of the most influential mathematics book series in Brazil and has played a major role in the mathematical education of generations of students preparing for university entrance examinations and olympiad-style problem solving. Interestingly, the work is available only in Portuguese, which makes many of its elegant problems relatively unknown outside the Portuguese-speaking mathematical community.
+
+This problem is an excellent example of how seemingly simple geometric constructions can conceal elegant, highly nontrivial mathematical relationships. It combines Euclidean geometry, circle tangency, polygonal chains, and angular structure into a single configuration that demands careful reasoning rather than brute-force computation.
+
+I shall now read the original problem statement.
+
+If the angles at the vertices O sub 1, O sub 2, O sub 3, O sub 4, and O sub 5 measure, respectively, ninety degrees, seventy-two degrees, one hundred and thirty-five degrees, one hundred and twenty degrees, and one hundred and five degrees, and the radii of the circles centered at these vertices measure, respectively, eighteen centimeters, thirty-five centimeters, twenty-four centimeters, thirty-six centimeters, and forty-eight centimeters, determine the length of the straight line segment A B.
+
+It is important to pay careful attention to what the problem is actually asking. The objective is not to compute the total length obtained by summing all of the radii of the circumferences. Instead, the problem asks for the direct length of the bold segment A B formed by the circumference arcs connecting the two extremities of the configuration. This distinction is subtle but fundamental, and many readers initially misinterpret the geometry by focusing only on the sequence of tangent circles rather than on the global displacement between the endpoints.
+
+The figure presents a sequence of five circles with centers labeled O sub 1, O sub 2, O sub 3, O sub 4, and O sub 5. The circles are externally tangent to one another, forming a curved geometric chain across the plane. A dashed polygonal path connects the centers of the circles, while the points A and B lie on the outer boundaries of the first and last circles, respectively.
+
+What makes the diagram particularly interesting is the interplay between local geometric information and global structure. Each circle contributes not only a radius, but also a directional change governed by the corresponding angle. The dashed construction in the image strongly suggests that the problem should not be approached solely through distance calculations, but rather through vector decomposition and cumulative geometric displacement.
+
+Another remarkable aspect of the figure is its visual asymmetry. At first glance, the configuration appears irregular and difficult to control analytically. However, hidden beneath this apparent complexity is a surprisingly coherent geometric mechanism. Problems of this type are classical because they reward structural insight: once the underlying pattern is identified, the entire configuration becomes mathematically transparent.
+
+Throughout this video, we shall carefully reconstruct the geometry, interpret the role of each angle, and derive the length of segment A B step by step with complete mathematical rigor.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 02:
+Before solving the problem itself, it is useful to briefly review one of the central geometric ideas that will appear repeatedly throughout the analysis: the length of a circumference arc.
+
+The image on the screen illustrates a sector of a circle. We are looking at a circle of radius r, together with two radii that form a central angle denoted by the Greek letter theta. The shaded green region represents the sector associated with this angle, while the bold curved boundary corresponds to the arc whose length is denoted by the letter L.
+
+Geometrically, the arc length measures how much of the circumference is intercepted by the angle theta. Intuitively, larger angles correspond to larger portions of the circle, and therefore to longer arcs.
+
+The fundamental idea is that the arc length is proportional to the fraction of the full revolution represented by the angle. Since a complete circumference has a length equal to two times pi times the radius, the arc length can be obtained by multiplying the total circumference by the fraction of the circle occupied by the angle.
+
+When theta is measured in degrees, the arc length is calculated by multiplying theta divided by three hundred and sixty degrees by two pi r.
+
+If the angle is measured in radians, the relation becomes considerably simpler. In that case, the arc length is simply equal to the radius multiplied by theta.
+
+It is important to remember that radians and degrees are simply two different ways of measuring angles. To transform an angle measured in degrees into radians, one must multiply the angle alpha, measured in degrees, by pi and divide the result by one hundred and eighty. This conversion appears constantly in mathematics, physics, engineering, and geometry problems involving circular motion or angular quantities.
+
+We shall also use another important geometric definition throughout the analysis. A pair of angles whose sum is equal to three hundred and sixty degrees are called explementary angles, also known as conjugate angles. In the present discussion, we shall define the angle sigma as the explementary angle associated with theta. In other words, sigma is equal to three hundred and sixty degrees minus theta.
+
+This compact relation is one of the reasons radians are so natural in mathematics and physics. In radian measure, the angle directly encodes the ratio between the arc length and the radius.
+
+In the figure, the bold curved segment on the left side is precisely the arc whose length we wish to calculate. The radius determines the scale of the circle, while the angle theta determines how much of the circumference is selected. Together, these two quantities completely determine the arc segment's length.
+
+Now that we have reviewed the formula for the length of a circumference arc, the strategy for the problem becomes much clearer. The total length of the bold curve connecting points A and B can be obtained by calculating the arc length associated with each individual circumference and then summing all of these contributions together.
+
+However, one must proceed carefully when determining which angle should be used in each circle. Depending on the geometric orientation of the arc, the relevant portion of the circumference may correspond either to the inner angle theta itself or to its explementary angle sigma. In other words, some arcs are generated by the smaller central angle, while others are generated by the remaining portion of the full revolution.
+
+For this reason, each circumference must be analyzed individually. Once the correct angle associated with a given arc is identified, the corresponding arc length can be calculated directly using the formulas we have just reviewed. The complete length of the curve A B is then obtained simply by adding all of these arc lengths together.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 03:
+We now arrive at the central formula that will be used to solve the problem.
+
+The quantity L sub A B represents the total length of the bold curve connecting points A and B in the original figure shown at the beginning of the video. This total length is obtained by summing the arc lengths of all circumference segments that form the path.
+
+The formula separates the calculation into two contributions. The first summation contains the arcs determined directly by the inner angles theta sub i. For each arc, the contribution is obtained by multiplying the radius R sub i by the corresponding angle theta sub i, after converting the angle to radians.
+
+The second summation contains the arcs determined by the explementary angles sigma sub i. Recall that sigma sub i is equal to three hundred and sixty degrees minus theta sub i. Once converted to radians, the arc length is again obtained by multiplying the radius by the corresponding angle.
+
+This distinction is the key idea of the solution. In the original figure, the bold curve does not always follow the smaller arc associated with the inner angle. In some circles, the relevant portion of the path corresponds instead to the remaining part of the circumference, namely the explementary angle.
+
+Notice that we are using the proportionality constant Pi over 180 to express the angles in degrees instead of radians. There is a possible abuse of notation, since we first considered theta in radians and alpha in degrees, but in mathematics we do not attach ourselves to notation.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 04:
+We can now substitute the numerical values directly into the arc length formula.
+
+Observe that, in the original figure presented at the beginning of the video, the bold path always follows the larger arc of each circumference. For this reason, we must use the explementary angles rather than the inner angles originally given in the problem statement.
+
+The corresponding explementary angles are obtained by subtracting each inner angle from three hundred and sixty degrees. This gives two hundred and seventy degrees, two hundred and eighty-eight degrees, two hundred and twenty-five degrees, two hundred and forty degrees, and two hundred and fifty-five degrees.
+
+We then multiply each of these angles by its corresponding radius. The first circle contributes eighteen times two hundred and seventy degrees. The second contributes thirty-five times two hundred and eighty-eight degrees. The third contributes twenty-four times two hundred and twenty-five degrees. The fourth contributes thirty-six times two hundred and forty degrees. Finally, the fifth contributes forty-eight times two hundred and fifty-five degrees.
+
+Since the angles are measured in degrees, we multiply the entire expression by pi divided by one hundred and eighty in order to convert the result into radian form and obtain the correct arc lengths.
+
+After simplifying the expression, we arrive at the final result: the total length of the curve connecting points A and B is equal to two hundred and five pi centimeters.
+
+This problem is a beautiful illustration of how elementary geometry can produce elegant and satisfying results through careful interpretation. Although the diagram initially appears complicated, the entire solution ultimately relies on a single fundamental idea: the formula for the length of a circumference arc.
+

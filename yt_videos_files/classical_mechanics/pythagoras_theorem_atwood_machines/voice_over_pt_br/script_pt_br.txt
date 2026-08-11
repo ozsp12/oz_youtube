@@ -1,0 +1,48 @@
+Slide 1: Pitágoras e a Máquina de Atwood (37s)
+Neste vídeo, veremos como a física e a geometria se unem de forma elegante. Analisaremos a máquina de Atwood, um dispositivo simples da mecânica clássica que nos ajuda a visualizar o teorema de Pitágoras em ação. Imagine três massas conectadas por uma corda que passa por duas polias. À medida que o sistema se move, os trajetos das massas formam um triângulo retângulo diante de nossos olhos. Nosso objetivo é entender como o movimento deste sistema leva naturalmente à famosa relação entre os lados de um triângulo retângulo descoberta por Pitágoras.
+
+Slide 2: Geometria do Sistema (43s)
+Analisemos agora a geometria do sistema. A corda que sustenta as três massas forma ângulos com a horizontal, que chamamos de theta L, o ângulo do lado esquerdo, e de theta R, o ângulo do lado direito da máquina de Atwood. O ângulo central entre eles é chamado de alpha. Como as três cordas formam um triângulo, a soma desses três ângulos deve ser igual a pi. Esta relação simples nos permitirá conectar o movimento das massas a uma identidade geométrica que leva diretamente ao teorema de Pitágoras. Nomearemos a massa da esquerda como M Lₗ, a massa da direita será chamada de M R e a massa central será chamada de M.
+
+
+Slide 3: Forças Atuantes (50s)
+Agora introduzimos as forças atuantes em cada massa. Cada bloco possui seu peso atuando para baixo, proporcional à sua massa e à aceleração da gravidade. A tensão na corda atua para cima, equilibrando o peso de acordo com a relação entre as três massas. No ponto central, as duas tensões das cordas laterais encontram-se formando um ângulo alpha entre elas, enquanto a tensão na corda vertical sustenta a massa central. Essas forças e suas direções determinarão as equações de movimento de todo o sistema. Nomearemos a tensão do lado esquerdo como T L, e a tensão do lado direito da massa M como T R. A tensão T L forma um ângulo theta L com a horizontal, enquanto a tensão T R forma um ângulo theta R.
+
+Slide 4: Equilíbrio (42s)
+No ponto central onde as três cordas se encontram, as forças devem estar em equilíbrio segundo as leis de Newton. As duas tensões laterais puxam em direções opostas, formando ângulos com a horizontal, enquanto a tensão vertical sustenta a massa central M. As componentes horizontais das tensões laterais devem se anular, e as componentes verticais, somadas à tensão vertical, devem equilibrar o peso da massa central M. Esta condição nos fornecerá as equações-chave que conectam a geometria à dinâmica. A figura mostra como as tensões T L e T R são decompostas em componentes em relação aos ângulos com a horizontal.
+
+Slide 5: Decomposição das Forças (61s)
+Para analisar o equilíbrio da máquina de Atwood, decompomos cada tensão em componentes horizontais e verticais. As forças horizontais devem se anular, de modo que as componentes da tração à esquerda se igualam às componentes da tração à direita. Verticalmente, as componentes das trações das cordas laterais, juntamente com a corda vertical central, devem sustentar exatamente a massa central M. Estas duas condições traduzem-se diretamente em equações para os senos e cossenos dos ângulos do sistema. A primeira relação importante vem da regra do paralelogramo para as forças atuantes. A segunda equação resulta do equilíbrio horizontal, relacionando as tensões T L, e T R, e os cossenos dos ângulos theta L, e theta R. A soma das forças verticais relaciona as tensões T L, e T R, e os senos dos ângulos theta L, e theta R, e o peso da massa central M G.
+
+Slide 6: Regra do Paralelogramo (29s)
+O peso da massa central, a tensão T L e a tensão T R formam um triângulo, com o peso da massa central oposto a um ângulo igual à soma dos ângulos theta L e theta R. Atenção para a expressão que relaciona os parâmetros do problema: as massas M, M L, M R, e o cosseno da soma dos ângulos theta L e theta R. Essa relação vem diretamente da lei dos cossenos.
+
+Slide 7: Equações (25s)
+Aqui estão as quatro equações principais deduzidas diretamente das leis de Newton para o equilíbrio, das restrições geométricas da máquina de Atwood e da regra do paralelogramo. A Equação 1 é a restrição geométrica. A Equação 2 vem da regra do paralelogramo. As Equações 3 e 4 foram obtidas da condição de equilíbrio utilizando a segunda lei de Newton para a estática.
+
+Slide 8: Relações Entre Massas (17s)
+O sistema é simples de resolver e encontramos mais equações do que precisamos. Para demonstrar o teorema de Pitágoras, bastam duas das quatro equações: a Equação 1, proveniente da geometria, e a Equação 2, deduzida a partir da lei dos cossenos.
+
+Slide 9: Eliminando os Ângulos (12s)
+Da Equação 1, a soma dos ângulos que definem a geometria do sistema é igual a pí. Isso implica que o cosseno da soma de theta L e theta R é igual ao cosseno de pí menos alpha.
+
+Slide 10: Usando a Soma de Ângulos (7s)
+Obtemos então a útil relação de que o cosseno de theta L mais theta R é igual à menos o cosseno de alpha.
+
+Slide 11: Cosseno da Soma (17s)
+O cosseno de pí menos alpha é igual à menos o cosseno de alpha. Esse fato trigonométrico transforma a Equação 2, obtida pela lei dos cossenos, em uma fórmula envolvendo apenas cossenos, o ângulo central alpha e as massas suspensas.
+
+Slide 12: Relação Final das Massas (48s)
+Podemos agora isolar o cosseno no lado esquerdo da expressão e, no lado direito, deixar apenas as massas suspensas da máquina de Atwood. Note que o numerador esconde o teorema de Pitágoras: se impusermos que alpha igual a pí sobre dois, então M ao quadrado é igual a M L ao quadrado mais M R ao quadrado. Aqui está, Pitágoras, enfim! As massas obedecem à famosa relação, e o ângulo interno entre as cordas da máquina forma um ângulo reto. Fica como exercício mostrar a implicação inversa: escolhendo massas que satisfaçam o teorema de Pitágoras, a máquina alcança uma configuração geométrica de equilíbrio com ângulo reto entre as cordas fazendo com que o ângulo alpha seja igual a pí sobre dois.
+
+Slide 13: Condição do Ângulo Reto (13s)
+Relembremos nosso objetivo inicial e analisemos os resultados. A expressão encontrada relaciona o ângulo alpha, a restrição geométrica do sistema, com os quadrados das massas suspensas.
+
+Slide 14: Triângulo Geométrico (25s)
+Um resultado geométrico interessante surge ao nomearmos os comprimentos das cordas que sustentam as massas. A lei dos cossenos fornece uma relação entre o ângulo alpha, os comprimentos L e R das cordas e a distância D entre as polias. Assim, quando alpha for igual a pí sobre dois, a distância D torna-se a hipotenusa do triângulo, e as cordas satisfazem o teorema de Pitágoras.
+
+Slide 15: Da Física à Geometria (27s)
+Começamos com as leis de Newton para o equilíbrio de forças na máquina de Atwood. Passo a passo, as condições de equilíbrio transformaram-se em relações trigonométricas, depois em relações entre comprimentos e massas, e finalmente no próprio teorema de Pitágoras. E, certas configurações do sistema, as massas suspensas obedecem ao teorema de Pitágoras, da mesma forma que os comprimentos das cordas presas às polias.
+
+Slide 16: Conclusão (19s)
+Esta demonstração mostra como um sistema físico pode revelar um teorema geométrico bem conhecido. A máquina de Atwood, concebida para estudar movimento e equilíbrio, torna-se aqui uma ponte entre a mecânica e a matemática, convertendo forças e tensões na elegância do teorema de Pitágoras.

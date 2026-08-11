@@ -1,0 +1,20 @@
+Slide #1: Definição do Problema (35s)
+Neste vídeo, vamos calcular a área da folha inscrita em um quadrado de lado A. Parte do desafio está em compreender como essa folha é formada. Dentro do quadrado, são desenhados dois quartos de círculo: um centrado no ponto D, no canto inferior direito, e outro centrado no ponto B, no canto superior esquerdo. A região sombreada representa a área de sobreposição delimitada pelos arcos. Nosso objetivo é determinar a área exata dessa região em forma de lente, que chamaremos de área da figura A E C F A.
+
+Slide #2: Construção dos Círculos (42s)
+Para entender melhor a geometria, vamos estender os quartos de círculo para além do quadrado. O primeiro círculo, identificado como S um, é centrado no ponto B, no canto superior esquerdo do quadrado. O segundo círculo, identificado como S dois, é centrado no ponto D, no canto inferior direito. Ambos os círculos têm o mesmo raio, igual ao lado do quadrado, representado pela letra A. Esses dois círculos se interceptam e criam os arcos identificados como F, pertencente ao círculo S um, e E, pertencente ao círculo S dois, formando a região em forma de lente que observamos dentro do quadrado.
+
+Slide #3: Área do Quarto de Círculo A-E-C-D-A (15s)
+Para resolver este problema, vamos calcular a área de um dos quartos de círculo representado pela figura A E C D A. Trata-se simplesmente da área de um quarto de círculo, ou seja, igual a pí vezes A ao quadrado dividido por quatro.
+
+Slide #4: Área do Triângulo A-C-D (16s)
+Agora, vamos calcular a área do triângulo retângulo A C D. Sua base e sua altura são ambas iguais ao lado do quadrado, representado pela letra A. Portanto, sua área é igual a A ao quadrado dividido por dois.
+
+Slide #5: Simetria da Folha A-E-C-F-A (18s)
+Observe que a região sombreada em forma de folha é simétrica em relação à diagonal A C do quadrado. Assim, a metade superior, identificada como A E C A, representa exatamente metade da área total da folha, identificada como A E C F A.
+
+Slide #6: Relação Entre as Áreas (31s)
+A metade superior da folha, identificada como A E C A, pode ser expressa como a diferença entre o quarto de círculo A E C D A e o triângulo retângulo A C D. Portanto, a área de A E C A é igual à área do quarto de círculo menos a área do triângulo. Como essa parte superior representa metade da folha inteira, obtemos que metade da área total de A E C F A é igual à área do quarto de círculo menos a área do triângulo.
+
+Slide #7: Expressão Final para a Área (18s)
+Substituindo as expressões conhecidas para as áreas do quarto de círculo e do triângulo, obtemos que a área da região em forma de lente A E C F A é igual a A ao quadrado dividido por dois, multiplicado pela quantidade pi menos dois.

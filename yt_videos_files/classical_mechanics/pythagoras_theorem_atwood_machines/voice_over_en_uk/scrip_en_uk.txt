@@ -1,0 +1,47 @@
+Slide 1: Pythagoras and the Atwood Machine (31s)
+In this video, we will see how physics and geometry come together beautifully. We will look at the Atwood machine, a simple device from classical mechanics that can help us see the Pythagorean theorem in action. Imagine three masses connected by a rope passing over two pulleys. As the system moves, the paths of the masses form a right triangle before our eyes. Our goal is to understand how the motion of this system naturally leads us to the famous relation between the sides of a right triangle discovered by Pythagoras.
+
+Slide 2: Geometry of the System (41s)
+Let us now look at the geometry of the system. The rope holding the three masses forms angles with the horizontal, which we call theta L, the angle facing the left side, and theta R, the angle facing the right side of the Atwood machine. The central angle between them is alpha. Because the three ropes form a triangle in space, the sum of these three angles must be equal to pi. This simple relation will later allow us to connect the motion of the masses to a geometric identity that leads directly to the Pythagorean theorem. We will name the mass on the left as M L, the mass on the right as M R, and the mass in the center as M.
+
+Slide 3: Acting forces (48s)
+Now we introduce the forces acting on each mass. Each block has its weight pulling downward with intensity proportional to its mass and the acceleration of gravity. The tension in the rope pulls upward, balancing the weight in a specific configuration depending on the relation between the three masses. At the central junction, the two tensions from the side ropes meet at an angle alpha between them, while the tension in the vertical rope supports the central mass. These forces and their directions will determine the equations of motion for the entire system. We will name the tension on the left side of the rope as T, L, and the tension on the right side of the rope as T, R. The tension T, L makes an angle theta, L with the horizontal, while the tension T, R makes an angle theta R. 
+
+Slide 4: Equilibrium (39s)
+At the central point where the three ropes meet, the forces must balance according to Newton's laws. The two tensions from the side ropes pull in opposite directions, forming angles with the horizontal, while the vertical tension supports the central mass. The horizontal components of the two side tensions must cancel each other, and the vertical components together with the vertical tension must balance the weight of the central mass. This condition will give us the key equations to connect geometry with dynamics. See the figure for details on how the tensions T L and T R are decomposed into components regarding their respective angles with the horizontal.
+
+Slide 5: Decomposing the Forces (52s)
+To analyze the equilibrium of the Atwood machine, we break each tension into horizontal and vertical components. The horizontal forces must cancel, so the pull to the left equals the pull to the right. Vertically, the upward components from the side ropes together with the central vertical rope must exactly support the central mass. These two simple conditions translate directly into equations for the sines and cosines of the angles in the system. The first important relation comes from the parallelogram rule of acting forces in the system. The second equation comes from balancing out horizontal forces, resulting in a relation between T L, T R, co sign of theta L, and co sign of theta R. The sum of vertical forces relates the tensions T L, T R, the signs of the angles and the weight of the center mass. 
+
+Slide 6: Parallelogram rule (25s)
+The weight of the center mass, the tension T L and the tension T R form a triangle with the weight of the center mass facing an angle which is the sum of theta L and theta R. Pay close attention to the derived expression relating the parameters of our problem. The mass M, M L, M R, and the co sign the theta L plus theta R, are related via the co sign rule.
+
+Slide 7: Equations (24s)
+Here are the four main equations that we derived directly from Newton's laws for statics, the geometrical constraints of the Atwood machine, and the parallelogram rule. Equation 1 is the geometrical constraint. Equation 2 was derived from the parallelogram rule. Equations 3 and 4 were derived from Newton's law for statics, where the acceleration equals zero.
+
+Slide 8: Mass Relations (18s)
+Thankfully, this system is easy to solve, and we found more equations than we need. To achieve our goal of demonstrating the Pythagorean theorem, we only need two of the four equations we found. The equation 1 from the geometrical constraints, and the co sign law in equation 2.
+
+Slide 9: Eliminating Angles (14s)
+From equation 1, the sum of the angles that determine the geometry of our system must be equal to pi. This means that the co sign of theta L plus theta R is equal to the co sign of pi minus alpha.
+
+Slide 10: Using the Angle Sum (9s)
+We then arrive at the useful relation between the angles. The co sign of theta L plus theta R is equal to minus the co sign of alpha.
+
+Slide 11: Cosine of the Sum (19s)
+The co sign of pi minus alpha is simply the negative co sign of alpha. This small trigonometric fact transforms the mass relation found in equation 2, the one we found using the co sign law, into a formula involving only co signs and the central angle alpha, and the hanging masses.
+
+Slide 12: Final Mass Relation (47s)
+We can now isolate the co sign in the left hand side of the expression we found, and in the right hand side we leave only the values of the hanging masses from the Atwood machine. Notice that the numerator hides the Pythagorean theorem. If we impose that the angle alpha must be equal to pi over two, then it implies that M squared equals M L squared plus M R squared. Here it is, Pythagoras at last! The masses obey the famous relation, and the inner angle between the ropes of the Atwood machine forms a right angle. I leave you to prove the opposite direction of this physical theorem. If we choose the masses so that they respect Pythagoras' theorem, then the Atwood machine reaches a geometric configuration of equilibrium where a right angle separates the ropes.
+
+Slide 13: Right Angle Condition (16s)
+Let us recall what we aimed to achieve from the beginning and analyze the results. Here is the illustration of the system we are studying. We found an expression that relates the angle alpha, which is the geometric constraint of the system, to the hanging masses' squared values.
+
+Slide 14: Geometric Triangle (32s)
+One interesting geometrical result appears if we name the lengths of the rope that holds the hanging masses. Notice that we find a similar result using the co sign law: an expression relating the angle alpha with the lengths L and R of the rope, and the separation distance D between the two pulleys. This means that whenever the angle alpha is equal to a right angle, then the length of the ropes will reach an equilibrium respecting the Pythagoras theorem, where the separation distance D between the two pulleys is the hypotenuse. 
+
+Slide 15: Physics to Geometry (21s)
+We began with Newton's laws of force in equilibrium on a simple Atwood machine. Step by step, the conditions of balance transformed into equations of angles, then into relations between lengths, and finally into the Pythagorean theorem itself. The hanging masses obey the Pythagorean theorem for specific configurations of the system.
+
+Slide 16: Conclusion (18s)
+This demonstration shows how a physical system can reveal a profound geometric truth. The Atwood machine, designed to study motion and equilibrium, here becomes a bridge between mechanics and mathematics, turning forces and tensions into the elegant simplicity of Pythagoras' theorem. 

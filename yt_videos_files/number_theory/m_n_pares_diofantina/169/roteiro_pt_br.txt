@@ -1,0 +1,63 @@
+===== SLIDE 1 =====
+
+Cinco elevado a dois ême menos um pode ser um quadrado perfeito? A resposta é não, e a prova cabe em quatro linhas.
+
+O teorema afirma o seguinte: não existem pares ordenados de inteiros positivos eme e ene tais que cinco elevado a dois eme, menos um, seja igual a ene ao quadrado.
+
+A demonstração é por contradição. Suponha que esse par exista.
+
+Como cinco elevado a dois ême é o quadrado de cinco elevado a ême , a equação vira uma diferença de quadrados: o quadrado de cinco elevado a ême menos o quadrado de êne é igual a um.
+
+Fatorando essa diferença, obtemos um produto: cinco elevado a ême menos êne , vezes cinco elevado a ême mais êne , igual a um.
+
+Falta verificar se esses dois fatores são positivos. Da própria equação, êne ao quadrado é menor que cinco elevado a dois ême ; como os dois lados são positivos, êne é menor que cinco elevado a ême. Logo, o primeiro fator é positivo e o segundo, de forma evidente.
+
+A seguir, a consequência de dois inteiros positivos terem produto igual a 1.
+
+
+===== SLIDE 2 =====
+
+Temos, então, dois inteiros positivos cujo produto é 1.
+
+Nos inteiros positivos, isso só acontece de um jeito: cada fator vale 1. Portanto, cinco elevado a M menos N é igual a 1 e cinco elevado a M mais N também é igual a 1.
+
+Subtraindo a primeira igualdade da segunda, sobram dois N iguais a zero. Ou seja, N é igual a zero.
+
+Mas partimos da hipótese de que N era um inteiro positivo. A contradição está feita e a suposição de que existe solução é falsa.
+
+Vale notar um atalho. A segunda igualdade, sozinha, já é impossível: com M maior ou igual a um, cinco elevado a M vale pelo menos cinco, e somar a isso um N positivo nunca dá um.
+
+
+===== SLIDE 3 =====
+
+Recapitulando a estrutura da prova em três passos.
+
+Primeiro, a equação é reescrita como a diferença de quadrados.
+
+Segundo: essa diferença é fatorada em dois inteiros positivos cujo produto é 1.
+
+Terceiro: essa condição força os dois fatores a valerem um, o que implica N igual a zero, o que contradiz a hipótese.
+
+Logo, a equação não possui soluções inteiras positivas.
+
+E repare que a base cinco não teve nenhum papel no argumento. O que a prova realmente mostra é algo mais geral: dois quadrados perfeitos positivos nunca diferem de um. A distância entre A ao quadrado e o quadrado imediatamente anterior é dois a menos um, que só vale um quando A é igual a um. A única diferença igual a um está entre um e zero, e zero não é positivo.
+
+
+===== SLIDE 4 =====
+
+O problema pertence à Teoria Elementar dos Números, mais especificamente ao estudo das equações diofantinas. As ferramentas usadas foram só duas: fatoração em inteiros e em quadrados perfeitos.
+
+Para quem quiser se aprofundar, três clássicos. Hardy e Wright são a referência canônica da área. Niven, Zuckerman e Montgomery são a introdução mais usada em cursos de graduação. E Burton é o mais didático dos três, o melhor ponto de partida para quem está começando agora.
+
+A lista completa, com edições e editoras, está na descrição do vídeo.
+
+
+===== SLIDE 5 =====
+
+Mais três indicações para leitura dirigida.
+
+Ireland e Rosen conectam a teoria elementar à teoria dos números moderna. Andreescu e Andrica são organizados por métodos e por problemas, o que é útil para quem treina para as olimpíadas. E Mordell é o tratado clássico dedicado especificamente às equações diofantinas.
+
+Se você está começando, comece por Hardy e Wright ou por Niven. Se o interesse é em diofantinas, vá direto ao Mordell.
+
+Obrigado por assistir.

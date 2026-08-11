@@ -1,0 +1,110 @@
+## Slide 1 — Physics Challenge
+
+A man is sitting on a rotating chair while holding a dumbbell in each hand. At first, his arms are fully extended, so the dumbbells are relatively far from the axis of rotation.
+
+Now imagine that, while the chair is spinning, he pulls both dumbbells inward toward his chest.
+
+What happens to his rotational speed?
+
+Does it decrease, increase, remain unchanged, or become zero?
+
+Pause for a moment and think about the distribution of mass in the system before moving to the solution.
+
+
+## Slide 2 — Direct Solution
+
+The correct answer is that his rotational speed increases.
+
+When the dumbbells are pulled inward, part of the system’s mass moves closer to the axis of rotation. This reduces the moment of inertia, which measures how strongly the distribution of mass resists rotational motion.
+
+If the external torque acting on the person, chair, and dumbbells is negligible, the total angular momentum remains approximately constant.
+
+Therefore, when the moment of inertia decreases, the angular speed must increase.
+
+The same effect can be observed when figure skaters pull their arms inward during a spin. By concentrating their mass closer to the rotation axis, they rotate more rapidly.
+
+
+## Slide 3 — Core Physical Concepts
+
+o better understand the result, we need to distinguish several physical quantities.
+
+Angular velocity describes how rapidly the chair rotates. Its direction is associated with the axis of rotation, which, in this situation, is the vertical line passing through the person and the chair.
+
+The moment of inertia depends on both the amount of mass and its distance from the rotation axis. Mass located farther from the axis contributes much more strongly to the moment of inertia than mass located close to it.
+
+For this reason, the same person and the same dumbbells can produce different moments of inertia depending on the position of the arms.
+
+With the arms extended, the dumbbells are farther from the axis, and the moment of inertia is larger. With the arms pulled inward, the dumbbells are closer to the axis, and the moment of inertia is smaller.
+
+Angular momentum describes the rotational state of the system. It depends on both the moment of inertia and the angular velocity.
+
+## Slide 4 — Conservation of Angular Momentum
+
+The central principle in this problem is the conservation of angular momentum.
+
+An external torque is produced by forces acting from outside the chosen system. External torque changes angular momentum over time.
+
+However, in an ideal rotating-chair experiment, friction at the axle is small, air resistance is weak, and no significant external force produces a torque around the vertical axis.
+
+Under these conditions, the angular momentum of the complete system remains approximately constant.
+
+Pulling the dumbbells inward is an internal action. The person uses muscular force to change the position of the dumbbells, but this action does not generate a significant external torque around the rotation axis.
+
+It is important not to confuse angular momentum with rotational kinetic energy. Angular momentum is approximately conserved, but the rotational kinetic energy can increase because the person performs mechanical work while pulling the dumbbells inward.
+
+The same physical principle appears in figure skating, diving, gymnastics, and many other rotational movements.
+
+
+## Slide 5 — Detailed Reasoning
+
+Let us now compare the initial and final states.
+
+Initially, the person’s arms are extended, so the dumbbells are far from the rotation axis. The initial moment of inertia is therefore relatively large, while the angular speed is relatively small.
+
+After the dumbbells are pulled inward, the distance between the dumbbells and the rotation axis becomes smaller. Consequently, the final moment of inertia is smaller than the initial moment of inertia.
+
+Because there is no significant external torque, the angular momentum before and after the movement must remain approximately the same.
+
+The reduction in the moment of inertia must therefore be compensated by an increase in angular speed.
+
+For example, if the final moment of inertia becomes sixty percent of its initial value, the final angular speed becomes approximately one point six seven times the initial angular speed.
+
+The conclusion is clear: pulling the masses inward speeds up the system's rotation.
+
+
+## Slide 6 — Revision and Formulas
+
+Let us finish with a concise review of the main ideas.
+
+Angular momentum is the quantity that describes rotational motion. For a rigid system rotating about a fixed axis, it depends on two factors: the moment of inertia and the angular velocity.
+
+When the external torque is negligible, angular momentum is conserved. This means that its initial value must be equal to its final value. Therefore, any decrease in the moment of inertia must be compensated by an increase in angular velocity.
+
+The moment of inertia measures how strongly a body resists changes in its rotational motion. For a point mass, it depends on the mass and on the square of its distance from the rotation axis. For a system of particles, the contributions of all particles must be added. For a continuous body, the same calculation is performed by integrating over the entire mass distribution.
+
+The key physical point is that mass located farther from the axis produces a larger moment of inertia. This is why the person has a larger moment of inertia when the arms are extended and a smaller one when the dumbbells are pulled inward.
+
+There are also three related quantities worth remembering. Rotational kinetic energy depends on the moment of inertia and on the square of the angular velocity. Angular acceleration describes how rapidly angular velocity changes over time. For a rigid body rotating about a fixed axis, torque is proportional to angular acceleration, with the moment of inertia acting as the proportionality factor.
+
+The final conclusion is straightforward. Pulling the masses inward reduces the moment of inertia. Since angular momentum remains conserved, the angular velocity increases. Therefore, the person and the chair rotate faster.
+
+
+## Slide 7 — References and Further Reading
+
+To deepen your understanding of rotational motion, angular momentum, and moment of inertia, several classical physics textbooks are especially useful.
+
+Halliday, Resnick, and Walker provide a clear and accessible introduction to rotational dynamics and conservation laws. Their treatment is well-suited to students who are encountering these ideas for the first time.
+
+Serway and Jewett offer a more detailed discussion of rigid-body rotation, torque, rotational energy, and angular momentum, with many worked examples and applications.
+
+Tipler and Mosca present the subject with a strong balance between physical interpretation and mathematical development. Their discussion is particularly useful for connecting rotational motion with broader principles of mechanics.
+
+For a more advanced treatment, Marion and Thornton examine the dynamics of particles and rigid bodies within the framework of classical mechanics.
+
+Goldstein, Poole, and Safko provide a rigorous and formal approach. This reference is recommended for readers who want to study rotational motion using the deeper structure of analytical mechanics.
+
+These books also open the way to related topics, including conservation laws, rotational kinetic energy, rigid-body dynamics, biomechanics, and real-world rotational systems.
+
+The central lesson remains simple: the distribution of mass determines the moment of inertia, and the conservation of angular momentum explains why bringing mass closer to the rotation axis increases the angular speed.
+
+

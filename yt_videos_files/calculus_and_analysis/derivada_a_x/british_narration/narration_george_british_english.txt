@@ -1,0 +1,68 @@
+Slide 01 (46s):
+In this video, we shall examine a fundamental concept within the field of Differential Calculus. Our objective is to determine the derivative of the exponential function, defined as f of x equals A to the power of x.
+
+It is important to establish our initial conditions: we assume that A is an element of the set of real numbers, such that A is strictly greater than zero and not equal to unity.
+
+To derive this result, we shall not rely on pre-existing formulae. Instead, we will proceed from First Principles, using the formal definition of derivatives via limits. As illustrated, the derivative—d f by d x—is defined as the limit of the ratio of the change in y to the change in x, as delta x tends to zero.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Slide 02 (49s):
+We begin by applying the definition of the variation of a univariate function with respect to its argument. The ratio of the change in y to the change in x is expressed as the quantity F of x plus delta x, minus F of x, all divided by delta x.
+
+As our function is F of x equals A to the power of x, we substitute this directly into the expression. This gives us delta y over delta x equals A to the power of x plus delta x, minus A to the power of x, all divided by delta x.
+
+By factorizing A to the power of x from the numerator, we arrive at the following result: delta y over delta x equals A to the power of x, multiplied by the fraction A to the power of delta x minus one, over delta x.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Slide 03 (50s):
+Moving forward, we apply the limit as delta x tends to zero to our expression for delta y over delta x. Since A to the power of x is independent of delta x, we may treat it as a constant in this context and move it outside the limit. This yields A to the power of x multiplied by the limit, as delta x tends to zero, of the quantity A to the power of delta x minus one, divided by delta x.
+
+The limit displayed above is a fundamental one within mathematical analysis. It is an established result that the limit, as delta x tends to zero, of A to the power of delta x minus one, over delta x, is equal to the natural logarithm of a.
+
+For our present purposes, we shall treat this as an established result. Its formal proof will be examined at a later date.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Slide 04 (29s):
+Therefore, as we have established, the limit as delta x tends to zero of delta y over delta x is equal to a to the power of x multiplied by the limit as delta x tends to zero of A to the power of delta x minus one, over delta x.
+
+By substituting the fundamental limit we previously identified, we arrive at the final expression: A to the power of x, multiplied by the natural log of A. This concludes our derivation.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Slide 05 (18s):
+We shall now return to the pending matter of demonstrating the fundamental result employed in our earlier derivation. Specifically, we seek to prove that the limit, as delta x tends to zero, of the quantity A to the power of delta x minus one, divided by delta x, is indeed equal to the natural logarithm of A
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Slide 06 (22s):
+The limit we have just utilized can be formally derived from the fundamental definition of the constant e.
+
+As shown here, E is defined as the limit, as x tends to infinity, of the quantity one plus, one over x, all raised to the power of x. E is the famous transcendental number named after the mathematician Leonhard Euler, and it is known as the Euler number.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Slide 07 (35s):
+Let us state our theorem. The limit, as delta x tends to zero, of the fraction A to the power of delta x minus one, over delta x, is equal to the natural logarithm of A.
+
+To begin the proof, we suppose that A is strictly greater than zero and not equal to unity. We proceed by defining a new variable, B, as being equal to A to the power of x, minus one. Notice that as delta x tends to zero, so does B.
+
+Rearranging this definition leads to the following expression: delta x is equal to the natural logarithm of the quantity one plus B, divided by the natural logarithm of A.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Slide 08 (57s):
+Observe that the ratio A to the power of delta x minus one, over delta x, is equivalent to B multiplied by the fraction: natural logarithm of A, over the natural logarithm of the quantity one plus B.
+
+With further algebraic refinement, we may rewrite this expression by moving the factor B into the denominator as an exponent of the logarithmic argument. This yields the fraction: natural logarithm of A, divided by the natural logarithm of the quantity one plus B raised to the power of one over B.
+
+Therefore, as we transition, we find that the limit, as delta x tends to zero, of A to the power of delta x minus one, over delta x, is equal to the limit, as delta x tends to zero, of the natural logarithmic of A, divided by the natural logarithmic of the quantity one plus B, raised to the power of one over B.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Slide 09 (50s):
+Notice that the limit, as B tends to zero, of the natural logarithm of A, divided by the natural logarithm of the quantity one plus B, raised to the power of one over B, can be rewritten. By moving the limit operator into the denominator, we obtain the natural log of a, divided by the natural log of the limit, as B tends to zero, of the quantity one plus B, raised to the power of one over B.
+
+As shown, the denominator of the above equation equals one. This is because the natural logarithm of the limit, as B tends to zero, of the quantity one plus B, raised to the power of one over B, is equivalent to the natural logarithm of e, which then equals unity. Therefore, as we intended to show, we arrive at our final result. Concluding the proof of the theorem.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Slide 10 (52s):
+We must now address certain caveats and mathematical challenges regarding the steps taken in our proof. There are two specific passages in which we have assumed results without providing rigorous proofs.
+
+The first concerns the equivalence of the definitions for the Euler number e. We have taken as a given that the limit, as x tends to infinity, of the quantity one plus, one over x, all raised to the power of x, is identical to the limit, as w tends to zero, of the quantity one plus w, raised to the power of one over w.
+
+The second passage involves a theorem of limits that allows us to move the limit inside the natural logarithm. I leave the verification of these two theorems as a challenge for the ambitious viewer. We shall, however, provide a formal proof for both in a subsequent video. Until then, treat these as an exercise in mathematical rigor.

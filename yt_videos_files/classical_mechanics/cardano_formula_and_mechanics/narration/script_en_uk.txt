@@ -1,0 +1,177 @@
+slide 01 ():
+In this presentation, we shall examine a coupled mechanical system and demonstrate how its natural frequencies may be obtained by means of Cardano’s method for the solution 
+of cubic equations.
+
+The figure depicts three identical masses, each of mass m, connected by springs of constant k. Their small displacements from equilibrium are denoted by x one, x two, 
+and x three.
+
+Our objective is to formulate the equations of motion for this system, assume harmonic behavior, and thereby recast the problem as an algebraic equation governing the permitted frequencies.
+
+This procedure leads to a cubic equation in the square of the angular frequency. We shall then reduce that cubic equation to a simpler form and solve it using Cardano’s method.
+
+The example is taken from Walter Greiner, *Classical Mechanics: Systems of Particles 
+and Hamiltonian Dynamics*, second edition, published by Springer in two thousand and nine, chapter eight, example eight point three, on page one hundred and seventeen.
+
+Thus, the presentation illustrates a clear and elegant connection between classical mechanics and classical algebra.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 02 ():
+The figure depicts a system of three identical point masses arranged vertically and connected by linear springs with the same spring constant, k.
+
+The upper mass is attached to the ceiling by a spring. The three masses are also connected in sequence vertically by springs, forming a central chain. In addition, there are two lateral couplings: one spring connects the top mass to the bottom mass on the right-hand side, and another spring connects the middle mass to the fixed ground on the left-hand side.
+
+The displacements of the three masses from equilibrium are labelled x one, x two, and x three. These coordinates define the system's dynamical state. Since the displacements are assumed to be small, the restoring forces are linear and obey Hooke’s law.
+
+From the physical point of view, this is a coupled oscillatory system. Each mass does not move independently. Instead, the motion of any one mass modifies the extension or compression of several springs, and this in turn affects the forces acting on the other masses.
+
+The essential physics is therefore governed by two ingredients: inertia, represented by the masses m, and elastic restoring forces, represented by the springs with constant k.
+
+Applying Newton’s second law to each mass produces a system of three coupled second-order differential equations. Because the springs link the masses together, the acceleration of each mass depends not only on its own displacement, but also on the displacements of the others.
+
+To determine the normal modes, one assumes harmonic motion, in which each displacement varies sinusoidally with a common angular frequency. This converts the differential system into an algebraic system for the amplitudes.
+
+The condition for non-trivial amplitudes leads to a characteristic equation. In this example, the characteristic equation is cubic in the square of the angular frequency. That is why Cardano’s method becomes relevant: the mechanics reduces naturally to the exact solution of a cubic polynomial.
+
+So, in summary, the image depicts a three-degree-of-freedom coupled spring-mass system, and the underlying physics is the theory of small oscillations, normal modes, and eigenfrequencies in classical mechanics.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 03 ():
+We now write the equations of motion for the three masses.
+
+The subscripts one, two, and three are simply labels identifying the positions of the three masses in the system. 
+
+The dots above the coordinates denote derivatives with respect to time. In particular, the double dots represent accelerations.
+
+So each equation is an expression of Newton’s second law: mass times acceleration equals the total elastic restoring force acting on that mass.
+
+Physically, the important point is that the acceleration of each mass depends not only on its own displacement, but also on the relative displacements of the other two masses. This is what makes the system coupled.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 04 ():
+We now present the dynamics in a simpler, more transparent form.
+
+Physically, each mass is subject to two effects: a restoring tendency due to its own displacement, and a coupling with the motion of the other two masses through the springs.
+
+This means that the system cannot oscillate as three independent particles. Instead, the motion is collective: each displacement influences the others, and the three degrees of freedom evolve together.
+
+In this form, the symmetry of the system becomes much clearer, and that symmetry will be essential when we search for the normal modes of vibration.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 05 ():
+We now introduce the standard ansatz of harmonic motion for small oscillations.
+
+In this ansatz, each displacement is assumed to vary sinusoidally in time with the same angular frequency, omega, while the amplitudes may differ from one mass to another.
+
+Physically, this corresponds to looking for the system's normal modes, that is, collective oscillations in which all three masses move with the same frequency but with different amplitudes.
+
+This is the key step that converts the equations of motion from differential form 
+into an algebraic eigenvalue problem for the amplitudes and the allowed frequencies.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 06 ():
+Substituting the harmonic ansatz into the equations of motion, we obtain a homogeneous linear system for the amplitudes A, B, and C.
+
+At this stage, the problem is no longer one of solving differential equations directly. It has been reduced to an algebraic system that relates the amplitudes of the three masses.
+
+Physically, this means that we are searching for collective oscillation patterns in which the entire system vibrates with a common angular frequency, omega, while each mass may have a different amplitude.
+
+A non-trivial solution exists only if these amplitudes are compatible with one another. That compatibility condition precisely determines the allowed frequencies of the system.
+
+The next step is to impose the condition for non-trivial solutions, which yields the characteristic equation.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 07 ():
+We now impose the condition for non-trivial solutions of the amplitude system.
+
+In physical terms, we are asking for values of the angular frequency, omega, for which the three masses can oscillate together in a normal mode without all amplitudes vanishing.
+
+That condition is obtained by setting the determinant of the coefficient matrix equal to zero. This is the standard eigenvalue condition of the problem.
+
+After expanding the determinant, we obtain the characteristic equation. It is a polynomial in omega squared, and its roots determine the allowed normal frequencies of the system.
+
+So the problem of coupled oscillations has now been reduced to finding the eigenvalues of this matrix, or, equivalently, solving its characteristic polynomial.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 08 ():
+We now simplify the characteristic equation by introducing a new variable, capital omega, defined as omega squared.
+
+This is a natural substitution, because the polynomial contains only even powers of omega. As a result, the original sixth-order equation is reduced to a cubic equation in capital omega.
+
+Physically, this is convenient because capital omega represents the square of the angular frequency, so solving this cubic equation is equivalent to determining the allowed vibrational frequencies of the system.
+
+This is the key step that brings the problem into the precise form where Cardano’s method can be applied.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 09 ():
+We now place the cubic equation into the standard framework required for Cardano’s method.
+
+First, we identify the coefficients a, b, c, and d of the general cubic polynomial in capital omega.
+
+Once these coefficients have been identified, the equation can be transformed into the reduced cubic form, written in terms of a new variable y.
+
+This reduced form is especially important because it removes the quadratic term and leaves a simpler equation, which is the natural starting point for Cardano’s formula.
+
+So at this stage, the mechanics problem has been translated into a standard algebraic problem: solving a reduced cubic equation whose roots will determine the allowed values of capital omega, and therefore the natural frequencies of the system.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 10 ():
+On this slide, we perform the key algebraic step needed to put our physical system into a solvable form.
+
+Starting from the general cubic equation that arises in the analysis of the coupled oscillators, we apply a shift in the variable. This shift is chosen precisely to eliminate the quadratic term.
+
+After this transformation, the equation reduces to the so-called depressed cubic, containing only a cubic term, a linear term, and a constant.
+
+At this point, the original coefficients are absorbed into two parameters. These parameters will later be related to the system's physical properties, such as mass, stiffness, and oscillator coupling.
+
+The important point is that this simplified structure mirrors the dynamics of the system we introduced earlier. It isolates the essential interactions, preparing the equation for an explicit solution and, ultimately, for interpretation in terms of coupled harmonic motion.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 11 ():
+In this slide, we bridge the mathematical model and the physical system.
+
+The coefficients a, b, c, and d belong to the Cardano formulation — they are purely algebraic quantities. In contrast, k and m are physical observables: the spring constant and the mass.
+
+We substitute the expressions derived from the coupled oscillator system into these algebraic coefficients. After applying the variable shift, we compute the reduced parameters of the depressed cubic.
+
+The result is highly structured. Both parameters depend only on the stiffness-to-mass ratio and satisfy a specific relation.
+
+This is the key point.
+
+The physics constrains the algebra. The coupled oscillator system maps to a special case of the cubic equation, allowing a simplified, explicit solution.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 12 ():
+In this final step, we map the algebraic solutions back to the physical system.
+
+The three expressions now represent the displacements of the masses — that is, the normal modes of the coupled oscillators. They differ only by phase shifts, which reflects the symmetry of the system.
+
+From these solutions, we directly obtain the natural frequencies.
+
+Two of them are equal, while the third differs by a factor of two. This degeneracy arises from the system's structure.
+
+All frequencies scale with the square root of the ratio between stiffness and mass.
+
+So, we have completed the bridge: from Cardano’s abstract variables to concrete physical motion, fully determined by k and m.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 13 ():
+Girolamo Cardano was a sixteenth-century Italian mathematician, physician, and natural philosopher, one of the most versatile figures of the Renaissance.
+
+He is best known for publishing the first general method for solving cubic equations in his book *Ars Magna*, released in the year fifteen forty five. Although the method had been discovered earlier by others, Cardano was the one who systematized it, proved its validity, and made it widely known.
+
+His work marked a turning point in algebra. It introduced systematic symbolic reasoning and, indirectly, led to the acceptance of complex numbers, which at the time were considered highly controversial.
+
+Beyond mathematics, Cardano was also a respected medical doctor, a gambler, and an author of philosophical and autobiographical works. His life was marked by both intellectual brilliance and personal turbulence.
+
+In short, Cardano stands as a central figure in the transition from medieval mathematics to the modern algebraic tradition.
+

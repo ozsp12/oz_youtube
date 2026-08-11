@@ -1,0 +1,18 @@
+Em 13 de junho de 1876, nasceu William Sealy Gosset, químico, estatístico e cervejeiro inglês, que desenvolveu parte essencial da estatística moderna ao trabalhar na cervejaria Guinness, em Dublin [1].
+
+O problema que Gosset abordou foi um problema industrial: como tomar decisões confiáveis com poucos dados? Os processos industriais que Gosset observava envolviam pequenas amostras de cevada, medições laboratoriais, lotes de matéria-prima e experimentos de produção. A estatística dominante da época era mais confortável com grandes amostras; Gosset precisava de uma teoria prática para amostras pequenas [2].
+
+Em 1908, Gosset publicou, na Biometrika, o artigo “The Probable Error of a Mean” [3], no qual estudou o erro padrão da média amostral quando o tamanho da amostra é pequeno. Esse trabalho está na origem da distribuição t de Student e do teste t, ferramentas que ainda hoje aparecem em ensaios clínicos, experimentos de laboratório, controle de qualidade, econometria, ciência de dados e testes A/B [4].
+
+O detalhe histórico tem riqueza cômica, pois Gosset não assinou o artigo com o próprio nome. Publicou sob o pseudônimo “Student”. A razão estava ligada às restrições da Guinness relativas a publicações técnicas, motivadas por preocupações com segredos industriais e vantagens competitivas. A empresa não queria expor detalhes de seus métodos científicos de produção [5]. Assim, nasceu o famoso teste t de Student [6]!
+
+Declaração de uso de IA generativa:
+* A imagem do post foi gerada com GPT-5.
+
+Referências
+[1] https://en.wikipedia.org/wiki/William_Sealy_Gosset
+[2] https://www.physoc.org/magazine-articles/the-strange-origins-of-the-students-t-test/
+[3] Student. “The Probable Error of a Mean”, Biometrika, v. 6, n. 1, p. 1–25, 1908. https://www.york.ac.uk/depts/maths/histstat/student.pdf
+[4] https://en.wikipedia.org/wiki/A/B_testing
+[5] https://www.forbes.com/sites/erikofgang/2024/03/13/how-a-guinness-brewer-helped-pioneer-modern-statistics/
+[6] https://en.wikipedia.org/wiki/Student%27s_t-test

@@ -1,0 +1,38 @@
+Slide 1: introdução (37s)
+Neste vídeo vamos explorar alguns tipos de visualizações. A habilidade de demonstrar dados e elaborar uma narrativa apresentando os achados deixou de ser uma obrigação apenas de cientistas e analistas de dados. Mesmo pessoas da área de negócios precisam dominar o básico de técnicas quantitativas. Nesta apresentação, vamos explorar diferentes formas de representar dados em painel,  também chamados de dados longitudinais. São dados coletados ao longo do tempo, permitindo observar a evolução de variáveis e comparar tendências entre categorias.
+
+Slide 2: tipos de gráficos (26s)
+Vamos trabalhar com um exemplo simples e completo. Consideraremos três tipos de produtos, nomeando-os: A, B e C. Observaremos o número de unidades vendidas mensalmente por produto. O período analisado vai de janeiro a dezembro de dois mil e vinte e quatro. Para representar esses dados, utilizaremos cinco tipos de gráficos, todos adequados a séries temporais e dados em painel.
+
+Slide 3: considerações e dicas (43s)
+Antes de escolher um gráfico, é importante ter em mente algumas boas práticas. Não existe receita de bolo para visualizações, então não fique preso aos exemplos deste vídeo; use sua imaginação, mas com senso crítico. O tipo de gráfico deve ser adequado ao público e à narrativa da análise, sendo demonstrado. Prefira gráficos simples, de fácil leitura e interpretação. Seja direto e mantenha sempre a legibilidade como prioridade. Nunca se esqueça de que os slides devem ser preparados visando seu principal cliente, aquele que vai tomar as decisões importantes, mas sem esquecer do público participante. Ser pedagógico é importante.
+
+Slide 4: gráfico de barras por mês do ano (59s)
+O primeiro exemplo que apresentaremos é o gráfico de barras agrupadas. Cada mês apresenta três barras, uma para cada produto. Essa visualização é útil para comparar valores absolutos entre categorias ao longo do tempo. 
+
+Percebemos que o Produto B, representado pelas barras de cor laranja, apresenta crescimento constante. O Produto A, representado pelas barras de cor azul, mostra tendência de queda. 
+
+A principal vantagem deste tipo de gráfico é conseguir fazer comparações simultâneas entre os valores das categorias de produtos, mês a mês. Lembrando que este é apenas um exemplo. É possível adequar este tipo de gráfico a qualquer visualização que seja dividida em categorias. 
+
+O número de barras não necessariamente se limita a três, mas cuidado ao usar este gráfico para um número grande de categorias, pois o visual pode ficar poluído de informações e dificultar o entendimento do interlocutor.
+
+
+Slide 5: gráfico de barras empilhado (32s)
+O gráfico de barras empilhado é ideal para mostrar a composição total das vendas em cada mês. Este gráfico permite observar tanto o total mensal, representado pela altura de cada barra, quanto a contribuição relativa de cada produto. É uma boa escolha quando o foco está na soma ou proporção dos componentes ao longo do tempo. O interlocutor pode ver no gráfico a quantidade vendida por produto mês a mês. É também possível incluir o valor total de produtos vendidos em cada mês.
+
+
+Slide 6: gráfico de barras por produto (28s)
+Nesta variação do gráfico de barras, o agrupamento é feito para cada produto. Cada barra representa a quantidade vendida para cada mês do ano. Este gráfico demonstra uma visão concorrente ao gráfico de barras que analisamos anteriormente. Neste caso, temos a visão agrupada por produto e a contribuição mensal. Este gráfico destaca a evolução interna de cada produto, facilitando a comparação mês a mês dentro de uma mesma categoria. 
+
+Slide 7: gráfico de área (19s)
+O gráfico de área é útil quando queremos enfatizar o volume acumulado ou o comportamento total das vendas. Cada camada representa um produto, e as áreas empilhadas evidenciam a contribuição de cada um ao longo do tempo. É uma alternativa visualmente agradável para séries temporais contínuas.
+
+Slide 8: gráfico de linha (23s)
+O gráfico de linha é o mais clássico para séries temporais. Mostra a evolução dos valores de cada produto mês a mês em um formato visualmente mais conciso. As linhas permitem identificar tendências, sazonalidades e pontos de inflexão com clareza. Dependendo do período analisado, é possível também observar ciclos que se repetem com determinada frequência.  
+
+Slide 9: mapa de calor (Heatmap) (63s)
+O mapa de calor sintetiza todas as informações em uma matriz de cores. Cada célula representa o valor de vendas de um produto em determinado mês. As cores variam conforme a intensidade dos valores, facilitando a identificação de padrões, picos e quedas de forma imediata. É uma ferramenta poderosa para análise exploratória e visualização compacta.
+
+É possível customizar a variação de cores de acordo com os valores. É comum utilizar cores quentes como o vermelho para valores críticos e cores mais brandas como o azul ou o verde para valores que apresentam boas notícias. Neste exemplo, como estamos lidando com a quantidade de produtos vendidos, quanto maior o valor, melhor a notícia para o interlocutor. Este gráfico mostra valores maiores com a cor verde-escuro.
+
+Não comentamos isso anteriormente, mas o uso de cores pode ser pouco inclusivo para pessoas com dificuldade em reconhecer as cores. O mapa de calor seria crítico neste quesito.

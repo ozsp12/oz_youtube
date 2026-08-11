@@ -1,0 +1,116 @@
+slide 01:
+Neste vídeo, organizei uma explicação visual sobre a relação entre álgebra linear e cálculo diferencial: vetores ortogonais a um mesmo vetor não nulo pertencem ao mesmo plano.
+
+No espaço real de três dimensões, R três, dado um vetor c não nulo, o conjunto de todos os vetores x tais que o produto escalar entre x e c é igual a zero forma um subespaço vetorial de dimensão dois. Geometricamente, esse subespaço é um plano perpendicular ao vetor c.
+
+Assim, se três vetores u, v e w satisfazem simultaneamente as condições de ortogonalidade com o vetor c, então os três pertencem ao mesmo plano perpendicular a c.
+
+Como esse plano tem dimensão dois, três vetores nele não podem ser linearmente independentes. Portanto, u, v e w são necessariamente linearmente dependentes.
+
+Essa ideia surge naturalmente na geometria e no cálculo diferencial.
+
+Quando temos uma superfície de nível, isto é, uma superfície definida pelos pontos em que uma função g de x, y e z assume um valor constante, qualquer curva contida nessa superfície mantém esse valor ao longo de seu trajeto.
+
+Ao derivar essa condição pela regra da cadeia, obtemos que o produto escalar entre o gradiente de g e o vetor tangente à curva é nulo. Em outras palavras, o vetor tangente à curva é ortogonal ao gradiente da função.
+
+Logo, o gradiente aponta na direção normal à superfície de nível.
+
+No caso da interseção de duas superfícies de nível, a curva de interseção possui um vetor tangente que é simultaneamente ortogonal a ambos os gradientes. Por isso, esse vetor tangente é paralelo ao produto vetorial dos gradientes das duas funções.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide_02:
+Agora vamos isolar a parte de álgebra linear.
+
+Fixamos um vetor c não nulo no espaço real de três dimensões, R três. A partir dele, consideramos o conjunto de todos os vetores x cujo produto escalar com c é igual a zero.
+
+Esse conjunto é chamado de subespaço ortogonal a c. Também podemos chamá-lo de c perpendicular, ou c perp.
+
+A condição de que o produto escalar entre x e c seja igual a zero implica que x é ortogonal a c. Portanto, esse conjunto reúne todas as direções perpendiculares ao vetor c.
+
+Como c é não-nulo, existe pelo menos uma direção em R três que não é ortogonal a c: a própria direção de c. Assim, a condição de ortogonalidade com c elimina uma direção do espaço tridimensional. O conjunto restante tem dimensão 2 e forma um plano vetorial que passa pela origem.
+
+Na figura, esse plano aparece como o plano azul. O vetor c é normal ao plano. Os vetores u, v e w estão desenhados no plano, o que indica que todos são ortogonais a c.
+
+Assim, as três condições de ortogonalidade — produto escalar de u com c igual a zero, produto escalar de v com c igual a zero e produto escalar de w com c igual a zero — dizem que u, v e w pertencem ao mesmo subespaço ortogonal a c.
+
+Ser ortogonal a um vetor fixo não é apenas uma relação entre dois vetores. Em R três, essa condição define um plano inteiro: o conjunto de todas as direções ortogonais a c.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide_03:
+Agora usamos a dimensão do plano perpendicular a c para analisar os vetores u, v e w.
+
+Pelo slide anterior, sabemos que os três vetores pertencem ao mesmo subespaço perpendicular a c. Esse subespaço é um plano vetorial; portanto, tem dimensão dois.
+
+Isso significa que o espaço gerado por u, v e w está contido em um espaço de dimensão dois. Logo, u, v e w não podem ser linearmente independentes.
+
+Em um espaço vetorial de dimensão dois, no máximo dois vetores podem ser linearmente independentes. Qualquer terceiro vetor do mesmo plano deve depender linearmente dos dois primeiros, desde que esses dois formem uma base do plano.
+
+Portanto, a conclusão geral é que o conjunto formado por u, v e w é linearmente dependente.
+
+Agora vem uma distinção importante.
+
+Dizer que u, v e w são linearmente dependentes não implica automaticamente que w possa ser escrito como combinação linear de u e v. Para afirmar isso, precisamos assumir que u e v são linearmente independentes.
+
+Se u e v são independentes, então eles geram um plano perpendicular a c. Nesse caso, qualquer vetor desse plano pode ser escrito como combinação linear de u e v.
+
+Como w também pertence ao plano perpendicular a c, existe uma escolha de escalares lambda e mi tal que w é igual a lambda vezes u mais mi vezes v.
+
+Geometricamente, isso significa que w pode ser decomposto nas duas direções independentes u e v no plano.
+
+Se u e v não são independentes, eles geram apenas uma reta. Nesse caso, a dependência linear dos três vetores permanece válida, mas não podemos garantir que w seja uma combinação linear de u e v.
+
+A conclusão correta deste slide é, portanto: três vetores dentro de um plano são linearmente dependentes; e, se dois deles formam uma base do plano, o terceiro é combinação linear desses dois.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide_04:
+Agora passamos da álgebra linear para o cálculo diferencial.
+
+Considere uma função escalar G definida no espaço real de três dimensões. Essa função associa a cada ponto com coordenadas X, Y e Z um número real.
+
+Uma superfície de nível é o conjunto dos pontos do espaço em que a função assume um valor constante. Isto é, escolhemos um número real C, e observamos todos os pontos em que a função G assume o valor C.
+
+Suponha agora que uma curva parametrizada, chamada Gama em função de T, esteja contida nessa superfície de nível. Isso significa que, ao percorrer a curva, continuamos sempre sobre a mesma superfície.
+
+Portanto, o valor da função G, ao longo dessa curva, permanece constante.
+
+Ao derivar essa condição matemática, em relação ao parâmetro T, aplicamos a regra da cadeia, uma técnica de derivação de funções compostas. O resultado é que o produto escalar entre o gradiente da função G, e o vetor tangente à curva, é igual a zero.
+
+O vetor tangente é a derivada da curva Gama em relação ao parâmetro T. Ele indica a direção instantânea de deslocamento sobre a superfície.
+
+O gradiente da função G, por outro lado, indica a direção em que a função varia localmente.
+
+Se a curva permanece sobre uma superfície em que a função G é constante, então o deslocamento tangente à curva não altera o valor de G. Por isso, esse deslocamento é ortogonal ao gradiente de G. 
+
+Isso implica que, o gradiente de G é normal à superfície de nível.
+
+No ponto P da superfície, o plano tangente é o conjunto de todas as direções ortogonais ao gradiente de G nesse ponto.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide_05:
+Neste último slide vamos aplicar os resultados que deduzimos nos slides anteriores.
+
+Agora consideramos duas superfícies de nível no espaço real de três dimensões.
+
+A primeira superfície é definida pela função G. A segunda é definida pela função H, e cada uma impõe uma condição escalar sobre os pontos do espaço.
+
+Quando essas duas superfícies se intersectam de forma regular, a interseção é uma curva. Essa curva pode ser descrita por uma parametrização, que chamamos de uma função Gama do parâmetro T.
+
+Como a curva está contida na primeira superfície, o valor da função G permanece constante ao longo dela. Portanto, pelo mesmo argumento do slide anterior, o vetor tangente à curva é ortogonal ao gradiente de G.
+
+Mas a curva Gama também está contida na segunda superfície. Então o valor da função H também permanece constante ao longo da curva Gama. Aplicando novamente a regra da cadeia, concluímos que o vetor tangente é ortogonal ao gradiente da função H.
+
+Assim, o vetor tangente à curva de interseção é simultaneamente ortogonal aos gradientes de G e de H.
+
+No espaço R três, quando esses dois gradientes são linearmente independentes, existe uma direção perpendicular a ambos. Essa direção é determinada pelo produto vetorial dos gradientes.
+
+Portanto, o vetor tangente à curva de interseção, entre as duas curvas de nível G e H, é paralelo ao produto vetorial entre o gradiente de G e o gradiente de H.
+
+A síntese é a seguinte: uma superfície de nível define uma restrição escalar. O gradiente dessa restrição fornece a direção normal. O plano tangente é formado pelas direções ortogonais a esse gradiente.
+
+Com uma única restrição, obtemos um plano tangente. Com duas restrições independentes, a interseção dos dois planos tangentes determina uma direção tangente. Um resultado muito importante e utilizado em geometria diferencial e geometria algébrica.
+

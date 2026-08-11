@@ -1,0 +1,118 @@
+slide 01:
+In this video, I present a visual explanation of the relationship between linear algebra and differential calculus: vectors orthogonal to the same nonzero vector lie in the same plane.
+
+In three-dimensional real space, R three, given a non-zero vector c, the set of all vectors x such that the inner product between x and c is equal to zero forms a two-dimensional vector subspace. Geometrically, this subspace is a plane perpendicular to the vector c.
+
+Thus, if three vectors u, v, and w simultaneously satisfy the orthogonality conditions with respect to the vector c, then all three belong to the same plane perpendicular to c.
+
+Since this plane has dimension two, three vectors contained in it cannot be linearly independent. Therefore, u, v, and w are necessarily linearly dependent.
+
+This idea arises naturally in geometry and differential calculus.
+
+When we have a level surface, that is, a surface defined by the points at which a function g of x, y, and z assumes a constant value, any curve contained in that surface preserves this value along its path.
+
+By differentiating this condition using the chain rule, we obtain that the inner product between the gradient of g and the tangent vector to the curve is zero. In other words, the tangent vector to the curve is orthogonal to the gradient of the function.
+
+Therefore, the gradient points in the normal direction to the level surface.
+
+At the intersection of two level surfaces, the intersection curve has a tangent vector that is simultaneously orthogonal to both gradients. For this reason, this tangent vector is parallel to the cross product of the gradients of the two functions.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide_02:
+Now let us isolate the linear algebra part.
+
+We fix a non-zero vector c in three-dimensional real space, R three. From it, we consider the set of all vectors x whose inner product with c is equal to zero.
+
+This set is called the subspace orthogonal to c. We may also call it c perpendicular, or c perp.
+
+The condition that the inner product between x and c is equal to zero implies that x is orthogonal to c. Therefore, this set gathers all directions perpendicular to the vector c.
+
+Since c is non-zero, there is at least one direction in R three that is not orthogonal to c: the direction of c itself. Thus, the orthogonality condition with respect to c removes one direction from three-dimensional space. The remaining set has dimension two and forms a vector plane passing through the origin.
+
+In the figure, this plane appears as the blue plane. The vector c is normal to the plane. The vectors u, v, and w are drawn in the plane, indicating that all of them are orthogonal to c.
+
+Thus, the three orthogonality conditions — the inner product of u with c equal to zero, the inner product of v with c equal to zero, and the inner product of w with c equal to zero — state that u, v, and w belong to the same subspace orthogonal to c.
+
+Being orthogonal to a fixed vector is not merely a relation between two vectors. In R three, this condition defines an entire plane: the set of all directions orthogonal to c.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide_03:
+Now we use the plane's dimension perpendicular to c to analyze the vectors u, v, and w.
+
+From the previous slide, we know that the three vectors belong to the same subspace perpendicular to c. This subspace is a vector plane; therefore, it has dimension two.
+
+This means that the space spanned by u, v, and w is contained in a space of dimension two. Hence, u, v, and w cannot be linearly independent.
+
+In a vector space of dimension two, at most two vectors can be linearly independent. Any third vector in the same plane must depend linearly on the first two, provided that those two form a basis of the plane.
+
+Therefore, the general conclusion is that the set formed by u, v, and w is linearly dependent.
+
+Now comes an important distinction.
+
+To say that u, v, and w are linearly dependent does not automatically imply that w can be written as a linear combination of u and v. To assert this, we must assume that u and v are linearly independent.
+
+If u and v are independent, then they generate a plane perpendicular to c. In this case, any vector in that plane can be written as a linear combination of u and v.
+
+Since w also belongs to the plane perpendicular to c, there exists a choice of scalars lambda and mu such that w is equal to lambda times u plus mu times v.
+
+Geometrically, this means that w can be decomposed into two independent directions, u and v, in the plane.
+
+If u and v are not independent, they generate only a line. In that case, the linear dependence of the three vectors remains valid, but we cannot guarantee that w is a linear combination of u and v.
+
+The correct conclusion of this slide is therefore: three vectors inside a plane are linearly dependent; and, if two of them form a basis of the plane, the third is a linear combination of those two.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide_04:
+Now we move from linear algebra to differential calculus.
+
+Consider a scalar function G defined on three-dimensional real space. This function assigns a real number to each point with coordinates X, Y, and Z.
+
+A level surface is the set of points in space at which the function assumes a constant value. That is, we choose a real number C and consider all points at which the function G assumes the value C.
+
+Now, suppose that a parametrized curve, called Gamma as a function of T, is contained in this level surface. This means that, as we move along the curve, we always remain on the same surface.
+
+Therefore, the value of the function G along this curve remains constant.
+
+When we differentiate this mathematical condition with respect to the parameter T, we apply the chain rule, a differentiation technique for composite functions. The result is that the inner product between the gradient of the function G and the tangent vector to the curve is equal to zero.
+
+The tangent vector is the derivative of the curve Gamma with respect to the parameter T. It indicates the instantaneous direction of displacement on the surface.
+
+The gradient of the function G, on the other hand, indicates the direction in which the function varies locally.
+
+If the curve remains on a surface where the function G is constant, then the tangential displacement along the curve does not change the value of G. For this reason, this displacement is orthogonal to the gradient of G.
+
+This implies that the gradient of G is normal to the level surface.
+
+At the point P on the surface, the tangent plane is the set of all directions orthogonal to the gradient of G at that point.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide_05:
+In this final slide, we apply the results derived in the previous slides.
+
+We now consider two-level surfaces in three-dimensional real space.
+
+The first surface is defined by the function G. The second is defined by the function H, and each one imposes a scalar condition on the points of space.
+
+When these two surfaces intersect regularly, their intersection is a curve. This curve can be described by a parametrization, which we call Gamma as a function of the parameter T.
+
+Since the curve is contained in the first surface, the value of the function G remains constant along it. Therefore, by the same argument used in the previous slide, the tangent vector to the curve is orthogonal to the gradient of G.
+
+But the curve Gamma is also contained in the second surface. Hence, the value of the function H also remains constant along the curve Gamma. Applying the chain rule once again, we conclude that the tangent vector is orthogonal to the gradient of the function H.
+
+Thus, the tangent vector to the intersection curve is simultaneously orthogonal to the gradients of G and H.
+
+In R three, when these two gradients are linearly independent, there exists a direction perpendicular to both. This direction is determined by the cross product of the gradients.
+
+Therefore, the tangent vector to the curve of intersection of the two level surfaces defined by G and H is parallel to the cross product of the gradient of G and the gradient of H.
+
+The synthesis is as follows: a level surface defines a scalar constraint. The gradient of this constraint gives the normal direction. The tangent plane is formed by the directions orthogonal to that gradient.
+
+With a single constraint, we obtain a tangent plane. With two independent constraints, the intersection of the two tangent planes determines a tangent direction.
+
+This is a widely used result in differential geometry and algebraic geometry.

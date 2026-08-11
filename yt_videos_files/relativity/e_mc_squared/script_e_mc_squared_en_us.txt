@@ -1,0 +1,11 @@
+In the year 1905, Albert Einstein published a paper that would forever alter our understanding of the physical universe. Within it was a short but groundbreaking equation: E equals m c squared. This formula, perhaps the most famous in all of science, expresses the equivalence between mass and energy. The letter E stands for energy, m stands for mass, and c is the speed of light in a vacuum.
+
+The equation emerged from Einstein’s Special Theory of Relativity, a rethinking of space and time. In this theory, Einstein demonstrated that the laws of physics are the same for all non-accelerating observers, and that the speed of light is constant regardless of one’s motion.
+
+Rest mass, also called invariant mass, is a fundamental property of matter, independent of its velocity. Massless particles such as photons have zero invariant mass, but they still carry both momentum and energy.
+
+The equivalence principle also implies that in chemical or nuclear reactions, when mass appears to be lost, a corresponding amount of energy is released, often as radiation or heat. This principle is central to fields such as nuclear physics, particle physics, and astrophysics.
+
+Einstein’s insight laid the foundation for the development of nuclear power and atomic weapons, explained how stars generate energy through nuclear fusion, and opened the door for the creation of particles in high-energy accelerators where energy transforms into matter.
+
+Historically, the concept of mass–energy equivalence was anticipated in part by the French mathematician and physicist Henri Poincaré. Still, it was Einstein who first proposed it as a general principle, grounded in the symmetries of space and time. This principle first appeared in his 1905 paper “Does the Inertia of a Body Depend Upon Its Energy Content?”, one of four revolutionary papers from his annus mirabilis.

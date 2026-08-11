@@ -1,0 +1,108 @@
+00:00 Slide 1: Presenting the problem (53s)
+00:56 Slide 2: Parameters of the problem (70s)
+02:07 Slide 3: Observers and reference frames (56s)
+03:05 Slide 4: Geometric constraints of the system (79s)
+04:26 Slide 5: Horizontal and vertical positions of the block (78s)
+05:47 Slide 6: Equations of motion and constraint (91s)
+07:19 Slide 7: Equations of motion and constraint (51s)
+08:12 Slide 8: Remembering equations (40s)
+08:54 Slide 9: Important relations (32s)
+09:28 Slide 10: Final equation (32s)
+10:02 Slide 11: Final remarks (84s)
+
+##############################################################################################################################
+Slide 1: Presenting the problem (53s)
+We will analyze one of the most well-known problems in classical mechanics, the sliding block on a sliding wedge. The block has mass lowercase m, and the wedge has mass uppercase M. The wedge rests on a smooth, horizontal surface, and it can slide freely without any resistance. The surface of the wedge is inclined at an angle alpha with respect to the horizontal and presents no static or kinetic friction with the block. We place the block right on top of the wedge, and then let the system go.
+
+In this setup, even though the block slides downward, the wedge itself will also begin to slide to the left, as a reaction to the block’s motion. The motion is coupled, and there is a holonomic constraint, as the block does not lose contact with the wedge's hypotenuse. Our goal will be to analyze this interaction and determine the accelerations of both the block and the wedge using Newtonian mechanics.
+
+##############################################################################################################################
+Slide 2: Parameters of the problem (70s)
+Let us now examine the accelerations at play in this coupled mechanical system.
+The small block of mass m slides along the surface of the wedge. We denote by a sub m its acceleration relative to the wedge, directed along the inclined plane. 
+
+This is the natural coordinate in the non-inertial frame attached to the wedge.
+However, since the wedge itself is free to move horizontally along the smooth ground, with an acceleration we shall call capital  A sub x, the absolute motion of the block, as observed from an inertial frame fixed to the ground, must be described with care. 
+
+To that end, we resolve the absolute acceleration of the block into its Cartesian components: A sub x, in the horizontal direction, and A sub y, in the vertical. These components represent the acceleration vector a in the inertial frame. Three fundamental questions then arise. We must find all of the mentioned acceleration components to describe the dynamics of this system entirely. 
+
+To answer these, we must apply Newton’s second law to each body independently, while imposing the appropriate kinematic constraints that link their motions through the geometry of the system.
+
+##############################################################################################################################
+Slide 3: Observers and reference frames (56s)
+To properly analyze this system, we must be precise about the frame of reference from which observations are made. At the bottom of the image, we see observer O sub 1, who is fixed with respect to the ground. This observer defines an inertial reference frame, one in which Newton’s laws apply in their standard form, without correction of inertial forces. 
+
+At the top of the wedge lies observer O sub 2, who moves along with the inclined plane. This observer is attached to a non-inertial reference frame, which itself accelerates horizontally as the wedge slides. From the perspective of observer O sub 2, the block appears to accelerate down the inclined plane of the wedge. 
+
+Still, this motion is influenced not only by gravity but also by the geometrical constraints of the system. Throughout our solution, we shall adopt the perspective of observer O sub 1, working strictly within the inertial frame and relying on Newtonian forces alone. 
+
+##############################################################################################################################
+Slide 4: Geometric constraints of the system (79s)
+In this diagram, we introduce the coordinates necessary to describe the motion of both bodies in the inertial frame. Let us denote by the capital X of t the horizontal position of the wedge’s base, measured from a fixed origin on the ground. This function describes how the wedge evolves in time as it slides freely along the horizontal axis. 
+
+The block slides down the inclined surface. Its position along the slope is given by lowercase s of t, a scalar function measuring the displacement relative to the wedge itself. However, since the wedge is not stationary, we must express the absolute position of the block in the inertial frame. To that end, we define the lowercase x of t and the lowercase y of t as the Cartesian coordinates of the block with respect to the ground. 
+
+These functions are related to the wedge's position and the block’s relative displacement by trigonometric projection. Specifically, the horizontal position of the block depends on both the position of the wedge and the projection of s of t along the incline. 
+
+Likewise, y of t is determined by the vertical component of the block’s motion along the slope.  This coordinate system enables us to formulate the kinematic constraints of the problem and subsequently derive the equations of motion using Newtonian mechanics or through the Lagrangian formalism.
+
+##############################################################################################################################
+Slide 5: Horizontal and vertical positions of the block (78s)
+We are now in a position to express the absolute coordinates of the block as explicit functions of time. Recall that the wedge moves horizontally. From the geometric constraint, we use the system's times and the trigonometric projections of the block's positions to determine two critical equations that describe the block's horizontal and vertical positions, relative to the wedge's position. 
+
+To determine the block’s absolute horizontal position, we project its motion onto the ground frame. The contribution from the wedge is simply capital X of t, and the additional displacement from the block’s relative motion along the slope is s of t times the co sign of alpha. Hence, the horizontal coordinate of the block is described by equation 1. 
+
+For the vertical coordinate, we observe that the wedge has a fixed height L times the sign of alpha, where L is the full length of the inclined plane, its hypotenuse. As the block descends, it moves downward by an amount s of t times the sign of alpha. Therefore, the vertical coordinate is given by equation 2. 
+
+These expressions encapsulate the kinematic coupling between the translational motion of the wedge and the relative motion of the block. They will serve as the foundation for obtaining velocities, accelerations, and ultimately the equations of motion for the system.
+
+##############################################################################################################################
+Slide 6: Equations of motion and constraint (91s)
+We now turn to the dynamical equations governing the system, obtained directly from Newton’s second law. On the inclined plane, the block experiences the action of two forces: its weight, given by its mass times the acceleration of gravity g, which acts vertically downward, and the normal reaction shown by the vector R, exerted by the wedge, which is perpendicular to the inclined surface of the wedge. 
+
+Let us resolve these forces into horizontal and vertical components in the inertial frame. Along the horizontal direction, the projection of the normal force gives rise to an acceleration A sub x of the block. Applying Newton’s second law results in equation 3, which relates A sub x and the reaction force R. Along the vertical direction, the vertical projection of the normal force balances the weight only partially, producing a vertical acceleration A sub y shown in equation 4. 
+
+By Newton's third law of action and reaction, the force R is also exerted on the wedge with equal but opposite reaction. This reaction force has a horizontal component minus R sign of alpha, which causes the wedge itself to accelerate with acceleration named by Capital A sub x. By Newton's second law, the governing equation on the horizontal for the wedge is given by equation 5.
+
+These three equations form the fundamental dynamical relations of the system, coupling the motion of the block and the wedge through the single interaction force R, which is a geometrical constraint to this system.
+
+##############################################################################################################################
+Slide 7: Equations of motion and constraint (51s)
+Let us now go through the relations one by one, spelling out each equation clearly.
+From the figure, we can find the accelerations shown in equation 6. Deriving twice with respect to time, the positions s of t, y of t, and x of t, results in the accelerations: A sub m, A sub y, A sub x. These are respectively the acceleration of the block with respect to the wedge, the vertical acceleration, and the horizontal acceleration of the block with respect to the observer O sub 1. 
+
+Equation number 7 shows the relation between the horizontal acceleration of the block, the horizontal acceleration of the wedge, and their relative acceleration A sub m.
+
+Equation number 8 relates the vertical acceleration of the block, A sub y, to the relative acceleration between the block and the wedge, A sub m.
+
+##############################################################################################################################
+Slide 8: Remembering equations (40s)
+Let us recall all the equations we found for this system. Equations 1 and 2 are the x and y positions of the block with respect to the ground observer O sub 1. Equations 3, 4, and 5 are found from Newton's second law of motion. Equation 6 shows the accelerations of the block. 
+
+Equations 7 and 8 are geometrical constraints from the system composed of the wedge and the block. Equation 7 relates all three horizontal accelerations: a sub m is the relative acceleration between the block and the wedge, capital A sub x is the acceleration of the wedge, and A sub x is the horizontal acceleration of the block with respect to the ground observer.
+
+##############################################################################################################################
+Slide 9: Important relations (32s)
+Equations 3 and 5 result in a relation between the wedge acceleration, the horizontal acceleration of the block, and the co sign of alpha. This equation is numbered as 9.
+
+Equations 7 and 8 result in equation 10, which relates the vertical acceleration of the block, the horizontal acceleration of the block and the wedge, and the tangent of alpha.
+
+Equations 9 and 10 result in equation 11: relating the vertical and horizontal accelerations of the block, A sub y and A sub x, with the tangent of alpha
+
+##############################################################################################################################
+Slide 10: Final equation (32s)
+Equations 3 and 4 result in equation 11, which relates A sub x and A sub y and the acceleration of gravity.
+
+Inserting equation 12 on the left-hand side of equation 11 results in equation 13. Notice that now the only unknown in equation 13 is the acceleration A sub x, all of the other terms are given, so we can factor this equation and find the horizontal acceleration of the block in terms of the mass of the block, the mass of the wedge, and the angle alpha of the inclined plane of the wedge.
+
+##############################################################################################################################
+Slide 11: Final remarks (84s)
+We now reach the final expressions for the accelerations in this system. I leave it to you as an exercise to find the other accelerations in terms of the a sub x found in equation 14. Just use the expressions we derived earlier.
+
+Equation fourteen gives us the horizontal acceleration of the block in the inertial frame. We found the factoring equation 13 that we saw earlier.
+
+Equation fifteen is the acceleration of the wedge. Since no external forces are acting on the horizontal direction in the system composed of the wedge and the block, the linear momentum is conserved in this direction. Equation fifteen demonstrates that the center of mass of this system does not move. Notice that this is readily seen by verifying that the weighted sum of the accelerations, pondered by the masses of the wedge and the block, is equal to zero.
+
+Equation sixteen provides the vertical acceleration of the block, and equation seventeen gives the relative acceleration of the block along the slope relative to the wedge. This is the most direct description of the block’s motion and represents the quantity we would measure if we were moving together with the wedge.
+
+Together, equations fourteen through seventeen complete the analysis, fully describing the system's dynamics in terms of the physical parameters of the problem. To explain the system position as time goes by, integrate all four of these equations twice with respect to time. 

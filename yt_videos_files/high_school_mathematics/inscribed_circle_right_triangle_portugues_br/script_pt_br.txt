@@ -1,0 +1,41 @@
+Slide 1: Introdução – O Problema (36s)
+
+Hoje vamos explorar um problema clássico da geometria euclidiana: inscrever um círculo dentro de um triângulo retângulo. O triângulo tem lados chamados A, B e C, e o círculo inscrito toca todos os três lados do triângulo em exatamente um ponto cada. Nosso objetivo é determinar o raio R desse círculo expresso apenas em termos dos lados do triângulo retângulo.
+
+Este problema combina de forma elegante geometria, álgebra e dedução lógica, sendo um exemplo perfeito da beleza e do rigor da resolução matemática de problemas.
+
+
+Slide 2: Relações Geométricas (42s)
+
+Nesta figura, ilustramos como o raio R se relaciona com os lados do triângulo. O centro do círculo está na interseção das bissetrizes dos ângulos, e cada raio é perpendicular a um dos lados. Como o círculo é tangente aos três lados, as distâncias dos vértices aos pontos de tangência decompõem cada lado em dois segmentos.
+
+No segmento que liga os pontos A e B, o trecho de A até o ponto de tangência mede R, enquanto a parte restante mede B menos R. De forma análoga, no segmento que liga A e C, o trecho de A até o ponto de tangência mede R, e a parte restante mede C menos R.
+
+
+Slide 3: Decomposição dos Segmentos e Teorema das Tangentes (60s)
+
+Nesta figura, traduzimos explicitamente a geometria em relações algébricas. No segmento AB, de A ao ponto de tangência temos R, e do ponto de tangência a B temos B menos R. No segmento AC, de A ao ponto de tangência temos R, e do ponto de tangência a C temos C menos R. No segmento BC, de B ao ponto de tangência temos B menos R, e de lá até C temos C menos R.
+
+Essas igualdades vêm do teorema da tangente: se dois segmentos partem de um mesmo ponto e são tangentes a um mesmo círculo, então eles têm o mesmo comprimento. Esse teorema é demonstrado facilmente usando semelhança de triângulos. Aplicando-o a cada vértice do triângulo, garantimos que as distâncias de cada vértice aos dois pontos de tangência com o círculo inscrito são iguais, fornecendo a estrutura algébrica necessária para expressar os lados em função de R.
+
+Slide 4: Derivando a Fórmula (31s)
+
+Agora combinamos todas as relações obtidas até aqui. O comprimento do lado A, que vai de B a C, compõe-se de dois segmentos: de B ao ponto de tangência com o círculo, medindo B menos R, e do ponto de tangência até C, medindo C menos R. Somando esses dois segmentos, obtemos a equação: A é igual a B menos R mais C menos R. Resolver para R é imediato. Temos então uma fórmula para o raio R do círculo.
+
+Slide 5: Decomposição pela Área (36s)
+
+Agora abordamos o problema sob outra perspectiva: a área do triângulo. Considere o triângulo retângulo com vértices A, B e C e centro do círculo inscrito O. A área total do triângulo A B C pode ser escrita como a soma das áreas dos três triângulos menores: A O C, B O C e A O B.
+
+Cada um desses triângulos menores tem um lado igual ao raio R do círculo inscrito e outro lado igual a um dos lados do triângulo original. Essa decomposição permitirá expressar a área do triângulo diretamente em função do raio R.
+
+Slide 6: Decomposição em Subtriângulos (31s)
+
+Agora, calculamos a área do triângulo original e dos três triângulos menores formados pelo incentro. A área do triângulo ABC é um meio vezes B vezes C. As áreas dos triângulos menores AOC, BOC e AOB são, respectivamente: um meio vezes R vezes C, um meio vezes R vezes A e um meio vezes R vezes B. Somando-as, obteremos uma relação entre A, B, C e R, que permitirá resolver para o raio.
+
+Slide 7: Resolvendo para o Raio pela Equação da Área (17s)
+
+Substituindo os valores encontrados para as áreas dos triângulos A B C, A O C, B O C, A O B, encontramos uma segunda expressão relacionando o raio R do círculo em função dos lados do triângulo retângulo original A, B, C.
+
+Slide 8: Conectando as Fórmulas e o Teorema de Pitágoras (27s)
+
+Igualando as duas expressões que encontramos para o raio do círculo em função dos lados do triângulo e simplificando a expressão resultante, obtemos o Teorema de Pitágoras, que relaciona os três lados de um triângulo retângulo: A ao quadrado é igual à B ao quadrado mais C ao quadrado. Conforme deveria ser. Essa verificação é um indicativo de que as fórmulas encontradas são consistentes entre si.

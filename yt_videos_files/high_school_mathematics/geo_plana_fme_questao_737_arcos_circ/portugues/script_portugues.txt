@@ -1,0 +1,59 @@
+slide 01:
+Neste vídeo, analisaremos o Problema 737, localizado na página 296 da coleção clássica Fundamentos de Matemática Elementar, de Gelson Iezzi e colaboradores. O problema ilustra como uma construção geométrica aparentemente simples, formada por circunferências tangentes, pode conter uma relação matemática elegante e pouco evidente.
+
+O enunciado é o seguinte: se os ângulos nos vértices O 1, O 2, O 3, O 4 e O 5 medem, respectivamente, noventa, setenta e dois, cento e trinta e cinco, cento e vinte e cento e cinco graus, e os raios das circunferências de centros nestes vértices medem, respectivamente, dezoito, trinta e cinco, vinte e quatro, trinta e seis e quarenta e oito centímetros. Determine o comprimento do segmento de reta A B.
+
+Vale observar que o problema não solicita a soma dos raios das circunferências. O que se pede é o comprimento direto do segmento A B, isto é, o comprimento da linha em negrito formada pela parte dos arcos de cada circunferência. 
+
+Este problema aborda conceitos básicos de geometria plana: a noção de ângulos centrais de circunferência, relacionados aos seus arcos, e de ângulos explementares, que, quando somados, totalizam 360 graus ou 2 Pi radianos.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 02:
+Antes de resolver o problema, vamos revisar uma ideia geométrica essencial: vamos entender como calcular o comprimento de um arco de circunferência. 
+
+A imagem à esquerda do slide mostra um setor circular de raio r e um ângulo central téta formado por dois raios que enxergam o arco destacado que tem comprimento éle. O comprimento do arco mede a parte da circunferência determinada pelo ângulo téta. Quanto maior o ângulo, maior o arco.
+
+Como a circunferência completa mede 2πr, o arco correspondente  pode ser calculado através de uma simples regra de três, de tal forma que a razão do arco éle sobre a circunferência seja equivalente à razão téta sobre 2π. Lembrando que téta é medido originalmente em radianos, mas para transformar o ângulo para graus basta multiplicarmos o ângulo em graus por π e dividi-lo por 180. 
+
+Para calcular o comprimento éle do arco vamos inserir a segunda equação na primeira, e encontrar a relação éle igual à π vezes téta vezes o raio, tudo isso dividido por 180. Além da fórmula para o cálculo do comprimento do arco, precisaremos do conceito de ângulos explementares, que são aqueles cuja soma é igual à 360 graus ou 2 π radianos. De forma que a última equação do slide mostra que o ângulo explementar de téta, o ângulo sigma é igual a 2 π menos téta.
+
+Depois de identificar o ângulo correto, se é o ângulo central, ou o ângulo explementar em cada circunferência, calculamos o comprimento de cada arco e somamos todos eles. Essa soma fornece o comprimento total da curva A B.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 03:
+Chegamos agora à fórmula central que será usada na resolução do problema. 
+
+Vamos entender como calcular o comprimento total éle da curva A B da figura original do problema. 
+
+A fórmula separa o cálculo em duas partes. 
+
+A primeira soma contém os arcos determinados diretamente pelos ângulos centrais téta, que correspondem a cada circunferência. Note que o somatório percorre o argumento i. 
+
+Em cada caso, o comprimento do arco é obtido multiplicando o raio R i correspondente pelo ângulo téta i.
+
+A segunda soma contém os arcos determinados pelos ângulos explementares sigma i. 
+
+Após a conversão para radianos, o comprimento do arco é novamente obtido multiplicando o raio pelo ângulo correspondente.
+
+Essa distinção é a ideia-chave da solução. 
+
+Na figura original, a curva em negrito nem sempre segue o arco menor associado ao ângulo central. 
+
+Em algumas circunferências, o trecho relevante corresponde à parte restante da volta completa, isto é, o arco correspondente ao ângulo explementar.
+
+Em resumo a primeira somatória corresponde à soma dos arcos de circunferências que visam os ângulos centrais, e a segunda somatória corresponde à soma dos arcos de circunferências que visam os ângulos explementares aos ângulos centrais.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+slide 04:
+Podemos agora substituir diretamente os valores numéricos na fórmula do comprimento de arco.
+
+Note que as circunferências de centro O 1, O 2 e O 3 e O 5 contribuem ao segundo somatório, pois os arcos de circunferência correspondem aos ângulos explementares. 
+
+A única circunferência que contribui no primeiro somatório cuja soma é dos arcos centrais, é a circunferência de centro O 4.
+
+Lembrando que os ângulos centrais das circunferências são respectivamente: 90, 72, 135, 120, 105 graus.
+
+Então os ângulos explementares de O 1, O 2, O 3 e O 5 são: 270, 288, 225 e 255 graus.
+
+Dessa forma somando todas as contribuições dos arcos de circunferências, obtemos a resposta de que o comprimento da curva A B é dada por 205 π
+

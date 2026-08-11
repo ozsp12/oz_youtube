@@ -1,0 +1,40 @@
+Slide 1: Sistema físico e parâmetros (32 s)
+Vamos resolver um problema clássico do bloco em um plano inclinado que pode se movimentar livremente. As forças de atrito, entre o bloco e o plano, e entre o plano e o chão são desprezadas. Os dados do problema são as massas m do bloco e M do plano, e o ângulo alfa do plano. Este é um exemplo de sistema com vínculos, que neste caso é o fato do plano não se mover na direção vertical, e o bloco não descolar do plano durante o movimento.
+
+Slide 2: Questões do problema (18 s)
+Vamos encontrar as leis de movimento para este sistema, a aceleração do bloco em relação ao plano inclinado. A aceleração do bloco em relação ao solo. A aceleração do plano inclinado em relação ao solo.
+
+Slide 3, 4, 5, 6: Descrevendo o movimento (15 s)
+Note que o bloco se movimenta em relação ao solo na direção vertical e horizontal, enquanto que o plano se movimenta apenas na horizontal. O momento linear é conservado na direção horizontal.
+
+Slide 7: Observadores e referenciais (25 s)
+Temos pelo menos dois possíveis observadores. O primeiro observador (O1) está parado no solo, em um referencial inercial. O segundo observador (O2) se encontra se movendo junto com o plano inclinado, em um referencial não inercial, pois está acelerado. Neste segundo referencial surgem forças não inerciais.
+
+Slide 8: Sistema de coordenadas (23 s)
+O sistema de coordenadas do observador O1 é o usual com eixos: vertical (y) e horizontal (x). Para o observador O2, o sistema de coordenadas além de estar em um referencial não inercial, também se encontra rotacionado de um ângulo alfa no sentido horário.
+
+Slide 9: Leis de movimento (17 s)
+Antes de escrever as equações dinâmicas usando a segunda lei de Newton, precisamos determinar as equações de vínculo do sistema, para conseguirmos encontrar todos os parâmetros de movimento. Repare que estamos parametrizando o sistema para o observador O1.
+
+Slide 10: Relações geométricas (30 s)
+O vínculo entre o bloco e o plano nos diz que a posição do bloco vista do solo é a soma do quanto o plano andou com o quanto o bloco escorregou ao longo da rampa, projetado nas direções horizontal e vertical. Essa ligação puramente geométrica será a ponte entre cinemática e dinâmica. Note também que as dimensões do plano não foram desprezadas, mas o bloco pode ser considerado uma partícula puntual.
+
+Slide 11: Diagrama de forças (31 s)
+As únicas forças relevantes para a resolução deste problema são o peso de cada corpo e a força normal entre bloco e plano. Essa força normal é inclinada, e empurra o bloco para fora do plano e, por reação, empurra o plano para o lado oposto, porém devido ao vínculo geométrico entre plano e bloco, não há força resultante na direção horizontal. Como o plano não se move na vertical, não precisamos analisar a força normal do plano no solo.
+
+Slide 12: Equações dinâmicas, Leis de Newton (17 s)
+A partir da segunda lei de Newton, temos três equações e quatro variáveis, a força de reação (R), a aceleração do bloco na direção horizontal, e na direção vertical, e a aceleração do plano na direção horizontal.
+
+Slide 13: Como as acelerações se combinam (23 s)
+A quarta equação que descreve o sistema vem da relação de vínculo geométrico. Agora temos um sistema possivelmente determinado com cinco equações e cinco variáveis, porém três destas variáveis são linearmente dependentes, as acelerações do bloco e plano na horizontal, e a aceleração do bloco em relação ao plano.
+
+Slide 14: Resolvendo o sistema, parte I (23 s)
+Definindo as acelerações do bloco vertical, do bloco em relação ao plano, e a aceleração do plano na horizontal em função da aceleração do bloco na horizontal, e com um pouco de álgebra, conseguimos encontrar a fórmula que define a aceleração do bloco na horizontal.
+
+Slide 15:  Resolvendo o sistema, parte II (8 s)
+Agora que encontramos a aceleração do bloco na horizontal, conseguimos definir todas as outras acelerações que estavam em função desta.
+
+Slide 16: Revisão conceitual (68 s)
+Há um vínculo geométrico no sistema, o bloco desliza na superfície do plano sem desgrudar. O momento linear é conservado na horizontal, pois não há força resultante nesta direção, e a aceleração do centro de massa é nulo na horizontal.
+Dois limites ajudam a intuição: se o plano for muito mais pesado que o bloco, ele quase não se move e o problema vira o caso escolar de rampa fixa; se as massas forem comparáveis, o recuo do plano é visível e reduz a aceleração resultante com que o bloco desce, devido à força de reação. Curiosamente se houver uma força externa atuando no plano é possível que o bloco acelera na vertical com a aceleração da gravidade, como se estivesse em queda livre.
+Em síntese: Selecionamos o observador no solo, escrevemos as equações da segunda lei de Newton, encontramos as equações de vínculo geométrico, definimos as variáveis do problema, e escrevemos o sistema linear determinado, encontrando todas as equações de movimento.
