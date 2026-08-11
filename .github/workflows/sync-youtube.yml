@@ -31,8 +31,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Validate YouTube API secret
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          if [ -z "$YOUTUBE_API_KEY" ]; then
+            echo "YOUTUBE_API_KEY is not configured in repository Actions secrets."
+            exit 1
+          fi
+
       - name: Extract YouTube metadata
-        run: python src/extrair_videos_youtube.py --modo ytdlp --saida data/videos_canal_youtube.xlsx
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python src/extrair_videos_youtube.py --modo api --saida data/videos_canal_youtube.xlsx
 
       - name: Update README catalog
         run: python src/gerar_readme.py
