@@ -18,7 +18,6 @@ from openpyxl.utils import get_column_letter
 IDENTIFICADOR_DO_CANAL = "UCj203koB0VhNWF43yy1w8ug"
 ENDERECO_DO_CANAL = "https://www.youtube.com/@ozlsp12"
 ARQUIVO_DE_SAIDA = "data/videos_canal_youtube.xlsx"
-DIRETORIO_DE_VIDEOS = "videos"
 
 
 def coletar_por_interface_oficial(chave, identificador_do_canal):
@@ -131,37 +130,6 @@ def formatar_segundos(total):
     )
 
 
-def criar_pastas_dos_videos(registros, raiz=DIRETORIO_DE_VIDEOS):
-    """Cria videos/<youtube_id>/ apenas quando a pasta ainda não existe."""
-    raiz = Path(raiz)
-    raiz.mkdir(parents=True, exist_ok=True)
-
-    criadas = 0
-    existentes = 0
-
-    for registro in registros:
-        identificador = str(registro.get("identificador") or "").strip()
-        if not identificador:
-            continue
-
-        pasta = raiz / identificador
-        if pasta.exists():
-            existentes += 1
-            continue
-
-        pasta.mkdir(parents=True)
-
-        # O Git não versiona diretórios vazios. O placeholder garante que a
-        # pasta seja persistida no repositório até receber material real.
-        (pasta / ".gitkeep").touch()
-        criadas += 1
-
-    print(
-        "{} pastas criadas; {} já existentes.".format(criadas, existentes),
-        file=sys.stderr,
-    )
-
-
 def gravar_planilha(registros, caminho):
     caminho = Path(caminho)
     caminho.parent.mkdir(parents=True, exist_ok=True)
@@ -240,7 +208,6 @@ def principal():
         registros = coletar_por_ytdlp(ENDERECO_DO_CANAL)
 
     registros.sort(key=lambda registro: registro["publicacao"], reverse=True)
-    criar_pastas_dos_videos(registros)
     gravar_planilha(registros, argumentos.saida)
     print("{} vídeos gravados em {}".format(len(registros), argumentos.saida))
 

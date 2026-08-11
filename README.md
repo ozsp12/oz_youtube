@@ -1,99 +1,38 @@
-# oz_youtube
+# Osvaldo L. Santos-Pereira — YouTube Repository
 
-Automated catalog of videos published on the [Osvaldo L. Santos-Pereira YouTube channel](https://www.youtube.com/@ozlsp12), with source code, notebooks, references, figures, and supplementary material.
+Repository containing source material, presentations, notebooks, scripts, figures, references, and supplementary files associated with the [Osvaldo L. Santos-Pereira YouTube channel](https://www.youtube.com/@ozlsp12).
 
-The catalog is synchronized from YouTube metadata and regenerated automatically by GitHub Actions.
+## Channel
 
-<!-- YOUTUBE-VIDEOS:START -->
+The channel is dedicated to rigorous educational and scientific content in mathematics, physics, data science, statistics, artificial intelligence, and related topics. The videos range from short mathematical and physical problems to longer explanations, computational demonstrations, simulations, and discussions of advanced scientific subjects.
 
-## Videos
+This repository complements the channel by preserving the materials used to produce selected videos, including presentations, narration scripts, notebooks, code, figures, references, and supporting documents.
 
-Total cataloged videos: **64**.
+## Content organization
 
-| # | Video | Description | Published | Duration |
-|---:|---|---|:---:|:---:|
-| 1 | [Loop vertical, razão entre altura e raio e o alcance atual da automação de frontend](https://www.youtube.com/watch?v=yvrqztc1NeA) | Tarefas de baixa complexidade no desenvolvimento de frontend já podem ser executadas por inteligência artificial generativa. Isso inclui a criação de interfaces, páginas estáticas, animações, componentes simples e int... | 2026-08-04 | 00:00:12 |
-| 2 | [Uma Equação Diofantina sem Soluções Positivas \| 5^(2m) − 1 = n²](https://www.youtube.com/watch?v=0Zk2XbYPopo) | Existe algum par de inteiros positivos que satisfaça essa equação? Neste vídeo, demonstramos, por contradição, que tal par não existe. O argumento começa reescrevendo a potência de 5 como um quadrado. Isso transforma... | 2026-08-02 | 00:04:02 |
-| 3 | [Equação diofantina sem solução: uma demonstração formal](https://www.youtube.com/watch?v=QzFgALxe2N8) |  | 2026-08-01 | 00:01:59 |
-| 4 | [Agentes de Inteligência Artificial: Conceitos, Funcionamento, Aplicações e Limitações](https://www.youtube.com/watch?v=oaKXsIK8768) | Neste vídeo, apresento uma introdução estruturada aos agentes de inteligência artificial: sistemas capazes de interpretar objetivos, planejar ações, utilizar ferramentas externas e executar tarefas em diferentes nívei... | 2026-07-29 | 00:13:41 |
-| 5 | [Seções Cônicas](https://www.youtube.com/watch?v=zvC9Bpsa-2s) |  | 2026-07-29 | 00:01:59 |
-| 6 | [Why Does He Spin Faster? Angular Momentum Explained Clearly](https://www.youtube.com/watch?v=zBJQdOW0DYg) | What happens when a person spinning on a rotating chair pulls two dumbbells closer to the body? In this video, we explore one of the clearest demonstrations of angular momentum conservation. The explanation connects r... | 2026-07-23 | 00:07:54 |
-| 7 | [Can You Solve This Probability Puzzle? \| Combinatorics Challenge](https://www.youtube.com/watch?v=ZZHex64CWnU) | Five different numbers are selected from one to eighteen and arranged from smallest to largest. The challenge is to determine the probability that seven appears in the second position and eleven appears in the fourth... | 2026-07-18 | 00:01:59 |
-| 8 | [Handwritten notes on the Klein–Gordon equation,](https://www.youtube.com/watch?v=Y3y8SKBVphI) | concise set of handwritten notes on the Klein–Gordon equation, developed from the relativistic relation between energy and momentum and organized through its covariant formulation. | 2026-07-15 | 00:01:59 |
-| 9 | [Hidrostática: Como Ordenar as Densidades de Cinco Esferas?](https://www.youtube.com/watch?v=mNLSu9W8MZA) | Cinco esferas de volume igual são colocadas em um recipiente contendo um líquido de densidade conhecida. Uma delas flutua parcialmente submersa, duas permanecem totalmente submersas em alturas diferentes e outras duas... | 2026-07-14 | 00:01:59 |
-| 10 | [Types of numbers from analytic number theory with python animation](https://www.youtube.com/watch?v=63HE6owk0XQ) | I created a GitHub repository dedicated to number theory and mathematical visualization. In it, I present the construction, using Python and Matplotlib, of the animation attached to this post, which illustrates differ... | 2026-07-13 | 00:02:15 |
-| 11 | [O problema de polias que engana quase todo mundo](https://www.youtube.com/watch?v=GvLIOXMsUlA) | Esse é um daqueles problemas de física que parecem simples, mas derrubam muita gente. | 2026-07-09 | 00:02:33 |
-| 12 | [Quando um Meme Entrega uma Prova Matemática](https://www.youtube.com/watch?v=ymQxXvnGH-M) | Você já viu o meme do 18 − 9 que entra em loop infinito? Por trás da piada, existe uma propriedade matemática simples e bonita: para números de 10 a 19, subtrair 9 resulta exatamente na soma dos algarismos. O meme vir... | 2026-07-05 | 00:02:33 |
-| 13 | [Why the Gradient Is Orthogonal to Level Surfaces](https://www.youtube.com/watch?v=E-RCxwW9PBw) | In this video, I present a visual explanation of the relationship between linear algebra and differential calculus: vectors orthogonal to the same nonzero vector lie in the same plane. In R³, given a non-zero vector c... | 2026-05-14 | 00:09:04 |
-| 14 | [Por que o gradiente é perpendicular às superfícies de nível?](https://www.youtube.com/watch?v=jMSWzqKGbBs) | Neste vídeo, organizei uma explicação visual sobre a relação entre álgebra linear e cálculo diferencial: vetores ortogonais a um mesmo vetor não nulo pertencem ao mesmo plano. Em R³, dado um vetor c não nulo, o conjun... | 2026-05-08 | 00:11:13 |
-| 15 | [Um problema clássico brasileiro de geometria plana que parece fácil, mas não é.](https://www.youtube.com/watch?v=uVLGv0mEACs) | Neste vídeo, resolvemos o Problema 737 da renomada coleção *Fundamentos de Matemática Elementar*, de Gelson Iezzi e colaboradores. Este elegante problema de geometria combina tangência entre circunferências, arcos de... | 2026-05-06 | 00:06:29 |
-| 16 | [Plane Geometry Problem from a Classic Brazilian Mathematics Book](https://www.youtube.com/watch?v=XBjucUgcMCs) | In this video, we solve Problem 737 from the renowned collection Fundamentals of Elementary Mathematics by Brazilian mathematician Gelson Iezzi and collaborators. This elegant geometry problem combines circle tangency... | 2026-05-02 | 00:11:05 |
-| 17 | [From Cardano to Coupled Oscillators: Solving Cubic Equations in Physics](https://www.youtube.com/watch?v=KrL0sttfNZ8) | In this video, we establish a connection between algebra and classical mechanics. Starting from a system of coupled harmonic oscillators, we derive the characteristic cubic equation that governs its dynamics and solve... | 2026-04-25 | 00:12:02 |
-| 18 | [Derivative of the exponential function via the limit definition](https://www.youtube.com/watch?v=RBGLS71u6wI) | In this video, we derive the exponential function from first principles using the limit definition of the derivative. Starting with $f(x)=a^x$, we examine the increment of the function, reorganize the expression algeb... | 2026-04-23 | 00:06:56 |
-| 19 | [Aula "trilha rápida do analista de dados": exemplos de funções (Python, SQL e DAX) muito utilizadas.](https://www.youtube.com/watch?v=dLDmXewxwpA) | Neste vídeo, eu ensino como utilizar algumas funções de Python, SQL e DAX (Power BI), úteis e amplamente utilizadas no dia a dia de um analista de dados. A ideia é proporcionar uma aula para que cidadãos dos dados se... | 2026-01-07 | 01:09:31 |
-| 20 | [O problema do SAT que todos erraram: paradoxo das moedas e roda de Aristóteles](https://www.youtube.com/watch?v=uzmDvQQZoGs) | Neste vídeo, apresento o paradoxo das moedas (a questão do SAT que todo mundo errou) e o da roda de Aristóteles. Escrevi um artigo didático sobre ambos os temas e publiquei-o na Revista Brasileira de Ensino de Física.... | 2026-01-04 | 00:43:08 |
-| 21 | [IME 2022: números complexos resolvendo um problema de geometria](https://www.youtube.com/watch?v=jt6RW7yieIs) | Neste vídeo, discuto a questão 05 da prova objetiva do concurso de admissão do IME-2021/2022 [1]. Essa questão foi adaptada da prova final da Olimpíada Matemática Romena de 1984. Encontrei a questão por acaso em um li... | 2026-01-01 | 00:42:06 |
-| 22 | [Pêndulo duplo simulado em Python - sistemas dinâmicos e caos na mecânica clássica](https://www.youtube.com/watch?v=oyBss2H3a_g) | Neste vídeo, eu explico o sistema físico do pêndulo duplo usando métodos numéricos em Python e crio uma simulação do sistema com animação. O pêndulo duplo é um sistema físico muito simples, mas bastante pedagógico par... | 2025-12-31 | 00:34:11 |
-| 23 | ["Quick and dirty": análise de dados com Python - Precificação e elasticidade.](https://www.youtube.com/watch?v=Vn45DCpdXNw) | Neste vídeo, inicio uma série que vou chamar de “Quick and Dirty”, na qual apresento ferramentas de análise de dados para responder rapidamente a perguntas de negócio, usando modelos matemáticos e estatísticos de form... | 2025-12-31 | 00:40:04 |
-| 24 | [SymPy: fazendo álgebra simbólica com Python](https://www.youtube.com/watch?v=LqBHkFpW6vk) | Neste vídeo, apresento a biblioteca Sympy para Python e falo sobre um projeto que estou propondo, no qual postarei vídeos sobre física e matemática computacional. Pretendo abordar vários níveis, do fundamental ao de p... | 2025-12-30 | 00:23:04 |
-| 25 | [Questão Dissertativa do IME de 2026: uma demonstração que engana muita gente. Desafiadora!](https://www.youtube.com/watch?v=oY2PUGaeMuw) | Neste vídeo, resolvo a questão 8 do segundo dia do exame do IME 2025/2026. A questão parece desafiadora, mas, na verdade, é bastante simples; ainda assim, ela esconde vários conceitos interessantes, que são discutidos... | 2025-12-29 | 00:22:29 |
-| 26 | [Demonstração da desigualdade matemática (exercício 2.7 do livro The Cauchy-Schwarz Master Class).](https://www.youtube.com/watch?v=MXczcfmpxGY) | Neste vídeo resolvo o exercício 2.7 do livro Cauchy-Schwarz Master-Class. O enunciado do problema é o seguinte: dados x, y, z ≥ 0: xyz ≥ 1 → (1 + x)(1 + y)(1 + z) ≥ 8. E eu acabo discutindo e generalizando o problema.... | 2025-12-27 | 00:39:31 |
-| 27 | [Aula 01 — Python do zero para análise de dados: variáveis, lógica e primeiros códigos](https://www.youtube.com/watch?v=oclZGqDb9R0) | Esta é a primeira aula do curso de Python para cidadãos dos dados (iniciantes). Nesta aula abordo a sintaxe de Python e apresento alguns exemplos para que a audiência vá se acostumando aos poucos com a IDE, e com a li... | 2025-12-27 | 01:25:23 |
-| 28 | [Desigualdade de Cauchy–Schwarz: uma demonstração simples para estudantes avançados do ensino médio.](https://www.youtube.com/watch?v=5UVnLilScIg) | Neste vídeo, demonstro a desigualdade de Cauchy–Schwarz em um contexto de análise real e sob a perspectiva da teoria dos números, sem recorrer a conceitos de espaços métricos e de normas. A demonstração é acessível a... | 2025-12-26 | 00:36:00 |
-| 29 | [Prova matemática: Sejam p e q inteiros tais que p + q + pq é par. Prove que p e q são pares.](https://www.youtube.com/watch?v=VmDh5tRMMX4) | Neste vídeo, eu demonstro que, sejam p e q inteiros tais que p + q + pq é par. Prove que p e q são pares. Eu também uso o vídeo para discutir a técnica de prova por contradição. Dou um exemplo de uma demonstração inco... | 2025-12-21 | 00:18:43 |
-| 30 | [Questão de Olimpíada de Física: partícula material sobre um bloco alongado de comprimento L.](https://www.youtube.com/watch?v=scRQ5DAtjjw) | Neste vídeo, apresento a resolução detalhada da 8ª questão da terceira fase da Olimpíada Brasileira de Física de 2001, destinada aos estudantes do primeiro e do segundo ano do Ensino Médio. O problema considera um blo... | 2025-12-17 | 00:24:50 |
-| 31 | [Resolvendo (polinômios): x³ + px + q é divisível por (x-a)², encontre a relação entre p e q.](https://www.youtube.com/watch?v=RDFBAXc1P9E) | Resolvendo o seguinte problema: f(x) = x³ + px + q é divisível por (x-a)² Encontre a relação entre p e q. | 2025-12-15 | 00:25:23 |
-| 32 | [Questão 05, Dia 02 da prova do IME-2025/2026 (questão dissertativa da prova de matemática)](https://www.youtube.com/watch?v=2Rhxz9y4Wv0) | Neste vídeo, resolvi a questão 5 do segundo dia da prova de Matemática do IME 2025/2026. Trata-se de uma prova discursiva. Além de resolver a questão, aprofundo-me em conceitos avançados de análise funcional, incluind... | 2025-12-10 | 00:42:23 |
-| 33 | [Teste de Wilcoxon: quando usar estatística não paramétrica](https://www.youtube.com/watch?v=ET12FMffAmI) | O vídeo apresenta uma explicação do teste não paramétrico de Wilcoxon, destacando sua utilidade quando a suposição de normalidade não pode ser sustentada. A exposição enfatiza quando o método é apropriado, seus limite... | 2025-11-26 | 00:28:46 |
-| 34 | [Questão #160 Dia 2 (azul) do ENEM 2025 (questão de geometria analítica)](https://www.youtube.com/watch?v=fvKghpRJkY8) | A Questão #160 do exame ENEM 2025, aplicada no 2º dia do caderno azul, apresenta um problema de modelagem matemática relacionado ao comportamento de um fluido em um recipiente preenchido sob vazão constante. O objetiv... | 2025-11-22 | 00:22:01 |
-| 35 | [Teste de complexidade temporal do método select (numpy) vs apply (pandas)](https://www.youtube.com/watch?v=dJwS3mv8Ooo) | Este vídeo apresenta uma análise técnica de desempenho entre os métodos apply() do Pandas e np.select() do Numpy, com foco em eficiência computacional e boas práticas em ciência de dados. No vídeo, é demonstrado como... | 2025-11-14 | 00:16:20 |
-| 36 | [Como visualizar dados longitudinais: linhas, heatmaps e painéis](https://www.youtube.com/watch?v=Etwy8F1cmzA) | Neste vídeo, há uma apresentação com alguns exemplos de gráficos para visualizar dados em painel (dados longitudinais). Arquivo pdf com a aula: https://github.com/ozsp12/ai_data_citizen/blob/main/dados_em_painel/tipos... | 2025-10-20 | 00:05:56 |
-| 37 | [10th-degree polynomial equation](https://www.youtube.com/watch?v=mJsv_uLeNgU) | 10th-degree polynomial equation | 2025-10-17 | 00:01:39 |
-| 38 | [#stem #maths #olimpiadasmatematicas #ramatematica #education #mathematics](https://www.youtube.com/watch?v=vk3Ew9gxj4k) |  | 2025-10-13 | 00:00:17 |
-| 39 | [#stem #maths #olimpiadasmatematicas #mathematics #ramatematica #education #sdah](https://www.youtube.com/watch?v=uOWYMCiI_fA) |  | 2025-10-13 | 00:00:18 |
-| 40 | [#stem #maths #olimpiadasmatematicas #mathematics #education](https://www.youtube.com/watch?v=YifLDTrwCa8) | derivative of x^n | 2025-10-13 | 00:00:27 |
-| 41 | [#stem #olimpiadasmatematicas #mathematics #education](https://www.youtube.com/watch?v=Y5GyN7rkBw0) |  | 2025-10-13 | 00:00:22 |
-| 42 | [Simple equation #stem #maths #olimpiadasmatematicas #mathematics #educaçãomatemática #education](https://www.youtube.com/watch?v=R6VnAXdwiH8) |  | 2025-10-12 | 00:00:19 |
-| 43 | [Como calcular a área de uma folha inscrita em um quadrado \| Geometria explicada passo a passo](https://www.youtube.com/watch?v=FX4Q6VrbzgM) | Neste vídeo, calculamos a área exata de uma região em forma de lente formada por dois quartos de círculo inscritos em um quadrado de lado "a". 00:00 Definição do Problema 00:37 Construção dos Círculos 01:21 Área do Qu... | 2025-10-04 | 00:03:09 |
-| 44 | [How to find the radius of the incircle of a right triangle](https://www.youtube.com/watch?v=pY17bWLx5Xw) | In this video, we derive the formula for the radius r of the circle inscribed in a right triangle with sides a, b, and c. Using geometric properties and algebraic manipulations, we express r entirely in terms of a, b,... | 2025-09-29 | 00:04:56 |
-| 45 | [A Polia de Atwood escondendo o Teorema de Pitágoras](https://www.youtube.com/watch?v=Deud6fViSQw) | Este vídeo explora como uma simples máquina de Atwood pode revelar de forma elegante o teorema de Pitágoras por meio da física e da geometria. Partindo das leis de Newton e do equilíbrio de forças, analisamos as tensõ... | 2025-09-28 | 00:08:25 |
-| 46 | [Find the Inradius of a Right Triangle: a Clean Geometry Solution](https://www.youtube.com/watch?v=8ufPXCY2XJM) | Finding the Radius of the Inscribed Circle in a Right Triangle In this video, we derive the formula for the radius r of the circle inscribed in a right triangle with sides a, b, and c. Using geometric properties and a... | 2025-09-25 | 00:07:15 |
-| 47 | [The Sliding Wedge Problem: Newtonian Mechanics Done Right](https://www.youtube.com/watch?v=AO0EU9an06s) | In this video, we explore the dynamics of a classic problem in classical mechanics: a block sliding on a frictionless wedge that can itself slide freely on a smooth horizontal surface. Step by step, we derive the equa... | 2025-09-19 | 00:11:28 |
-| 48 | [Bloco em um Plano Inclinado Deslizante (Leis de Newton)](https://www.youtube.com/watch?v=NfphOjG623Y) | Neste vídeo, resolvemos um problema clássico da mecânica: um bloco de massa m desliza sem atrito sobre um plano inclinado de massa M, que por sua vez pode se mover livremente sobre uma superfície horizontal sem atrito... | 2025-08-09 | 00:05:43 |
-| 49 | [Dedução de expressão #foryou #maths #mathstricks #sdah #mathgenius #fyp #fypyoutuber #gifted](https://www.youtube.com/watch?v=c4GlnXAY9eE) | Consegue acompanhar o raciocínio? Só para quem é inteligente! Se conseguir, você se encontra no top 2% da população! Can you follow the steps? Only for smart people! If you follow, you are in the top 2%! | 2025-08-03 | 00:00:18 |
-| 50 | [Dedução de expressão #foryou #maths #mathstricks #sdah #mathgenius #fyp #fypyoutuber #gifted](https://www.youtube.com/watch?v=7-Lxh-yTNl0) | Consegue acompanhar o raciocínio? Só para quem é inteligente! Se conseguir, você se encontra no top 2% da população! Can you follow the steps? Only for smart people! If you follow, you are in the top 2%! | 2025-08-01 | 00:00:22 |
-| 51 | [Dedução de expressão #foryou #maths #mathstricks #sdah #mathgenius #fyp #fypyoutube #gifted](https://www.youtube.com/watch?v=t1ry23INzLk) | Consegue acompanhar o raciocínio? Só para quem é inteligente! Se conseguir, você se encontra no top 2% da população! Can you follow the steps? Only for smart people! If you follow, you are in the top 2%! | 2025-08-01 | 00:00:27 |
-| 52 | [Resolução de equação #short #foryou #maths #mathstricks #mathsfun #sdah #mathgenius](https://www.youtube.com/watch?v=r4VlkcjmK2U) | Consegue acompanhar o raciocínio? Só para quem é inteligente! Se conseguir, você se encontra no top 2% da população! Can you follow the steps? Only for smart people! | 2025-07-30 | 00:00:28 |
-| 53 | [Warp Drive: The physics behind space warp](https://www.youtube.com/watch?v=-HVx9UttdIc) | Disclaimer: This is not a speculative or popular science presentation, but a pedagogical introduction grounded in the formalism of General Relativity. 📌 Video Chapters (YouTube Chapters): 00:00 - Introduction and Alcu... | 2025-07-27 | 00:03:27 |
-| 54 | [Warp Drive in General Relativity: Faster-than-Light Without Breaking Locally](https://www.youtube.com/watch?v=SxDXN2_ATpM) | Disclaimer: This is not a speculative or popular-science presentation, but a pedagogical introduction grounded in the formalism of General Relativity. This video provides a concise and rigorous overview of the theoret... | 2025-07-25 | 00:04:24 |
-| 55 | [Soma dos n primeiros ímpares é igual à n² #maths #shorts #shortsfeed #mathstricks #funmaths #foryou](https://www.youtube.com/watch?v=Yn0JttpsrVQ) | Esse padrão matemático impressionante mostra como os números ímpares constroem quadrados perfeitos. Simples, elegante e profundamente satisfatório. 👇✨ | 2025-07-23 | 00:00:31 |
-| 56 | [Sum of the n first n odd numbers is n² #maths #mathstricks #shorts #shortsfeed #shortsyoutube](https://www.youtube.com/watch?v=Ibfhu1LQsCQ) | The sum of the first n consecutive odd numbers is n² (also known as the odd number square identity) | 2025-07-23 | 00:00:31 |
-| 57 | [📚 Você consegue resolver essa? #shorts #matematicabasica #dicasdematematica #mathtricks #mathshorts](https://www.youtube.com/watch?v=WXRjzCGxcaM) | 📚 Você consegue resolver essa? Uma equação simples, mas que muita gente erra! Vamos treinar a mente com um pouco de álgebra básica e raciocínio lógico. #matematica #aprendamatematica #shorts #desafiomatematico #matema... | 2025-07-21 | 00:00:31 |
-| 58 | [Simplifique a expressão #matematicabasica #dicasdematematica #algebra #ensinomedio #mathshorts](https://www.youtube.com/watch?v=178OpIPLtl8) | 📚 Você consegue resolver essa? Uma expressão simples, mas que muita gente erra! Vamos treinar a mente com um pouco de álgebra básica e raciocínio lógico. | 2025-07-20 | 00:00:31 |
-| 59 | [Como uma partícula atravessa uma barreira? Simulando tunelamento em Python](https://www.youtube.com/watch?v=z7aMYTNa7ms) | Este vídeo apresenta uma exploração visual e conceitual do tunelamento quântico, um dos fenômenos mais contraintuitivos e fundamentais da mecânica quântica. A animação foi gerada com Python e simula um pacote de onda... | 2025-07-20 | 00:05:17 |
-| 60 | [Efeito túnel da mecânica quântica - Simulação em Python](https://www.youtube.com/watch?v=h4B-unb2UGI) | Esta animação apresenta o fenômeno do tunelamento quântico, no qual um pacote de ondas representando uma partícula se aproxima de uma barreira de potencial com energia inferior à altura da barreira. Enquanto a física... | 2025-07-16 | 00:00:09 |
-| 61 | [Quantum tunneling (potencial barrier) - Python simulation](https://www.youtube.com/watch?v=rhZG1Rgyg5Y) | This animation illustrates the quantum mechanical phenomenon of tunneling, where a wave packet representing a particle approaches a potential barrier with an energy equal to or less than the barrier height. While clas... | 2025-07-16 | 00:00:09 |
-| 62 | [Animação da soma de Riemann #soma #Riemann #calculo #integral](https://www.youtube.com/watch?v=VlJ784LCkhE) | Animação da soma de Riemann | 2025-07-10 | 00:00:12 |
-| 63 | [Benderama: banach-tarski machine and quantum Bender. Explanation of the harmonic series divergence.](https://www.youtube.com/watch?v=zb1tEaJ2yFc) | Neste vídeo, uso o episódio 17 da sexta temporada de Futurama, “Benderama”, para explicar a série harmônica e demonstrar por que ela é divergente. No episódio, o Professor Farnsworth apresenta uma expressão matemática... | 2025-03-24 | 00:20:37 |
-| 64 | [Resolvendo equação polinomial de quarta ordem e demonstrando um teorema de redução de ordem](https://www.youtube.com/watch?v=jdkhDn97CMA) | Neste primeiro vídeo da série sobre raciocínio matemático: resolvo uma equação polinomial do quarto grau para um caso particular e desenvolvo um algoritmo para reduzir o grau desse polinômio pela metade através de uma... | 2025-03-20 | 00:24:48 |
-
-<!-- YOUTUBE-VIDEOS:END -->
-
-## Repository structure
+The material is organized using a shallow topic taxonomy:
 
 ```text
-src/       Python scripts for metadata extraction and README generation
-data/      Generated metadata files
-videos/    Supplementary material organized by YouTube video ID
-.github/   GitHub Actions automation
+math_algebra/
+math_calculus_analysis/
+math_high_school/
+math_number_theory/
+
+phys_classical_mechanics/
+phys_quantum_mechanics/
+phys_relativity/
+phys_warp_drive/
+
+artificial_intelligence/
+data_science/
+stats_biostatistics/
+history_of_science/
 ```
 
-## Manual execution
+The automated workflow only updates the YouTube metadata workbook stored in `data/videos_canal_youtube.xlsx`. The scientific and educational materials are curated manually.
 
-```bash
-pip install -r requirements.txt
-python src/extrair_videos_youtube.py --modo ytdlp --saida data/videos_canal_youtube.xlsx
-python src/gerar_readme.py
-```
+## Author
 
-The `yt-dlp` mode does not require an API key. The extractor also retains support for the official YouTube Data API v3.
+**Dr. Osvaldo L. Santos-Pereira** — [Academic webpage](https://ozsp12.github.io/) · [Lattes](http://lattes.cnpq.br/6730251976463283) · [ORCID](https://orcid.org/0000-0003-2231-517X) · [Google Scholar](https://scholar.google.com/citations?user=HIZp0X8AAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Osvaldo-Santos-Pereira) · [GitHub](https://github.com/ozsp12) · [LinkedIn](https://www.linkedin.com/in/ozsp12) · [Substack](https://substack.com/@olsp1982) · [Medium](https://medium.com/@ozsp12) · [YouTube](https://www.youtube.com/@ozlsp12) · [X](https://x.com/ozsp12)
+
+A more complete biographical note can be added here later.
