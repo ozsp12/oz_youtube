@@ -1,0 +1,47 @@
+name: Sync YouTube catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * 1"
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - "requirements.txt"
+      - ".github/workflows/sync-youtube.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Extract YouTube metadata
+        run: python src/extrair_videos_youtube.py --modo ytdlp --saida data/videos_canal_youtube.xlsx
+
+      - name: Update README catalog
+        run: python src/gerar_readme.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/videos_canal_youtube.xlsx
+          git diff --cached --quiet && exit 0
+          git commit -m "Update YouTube catalog"
+          git push
