@@ -4,30 +4,22 @@ Repository containing source material, presentations, notebooks, scripts, figure
 
 # Channel
 
-The channel is dedicated to rigorous educational and scientific content in mathematics, physics, data science, statistics, artificial intelligence, and related topics. The videos range from short mathematical and physical problems to longer explanations, computational demonstrations, simulations, and discussions of advanced scientific subjects. This repository complements the channel by preserving the materials used to produce selected videos, including presentations, narration scripts, notebooks, code, figures, references, and supporting documents.
+The channel is dedicated to rigorous educational and scientific content in mathematics, physics, computer science, statistics, artificial intelligence, and related topics. The videos range from short mathematical and physical problems to longer explanations, computational demonstrations, simulations, and discussions of advanced scientific subjects. This repository complements the channel by preserving materials used to produce selected videos.
 
 # Content organization
 
-The material is organized using a shallow topic taxonomy:
+The repository uses broad scientific areas at the root. Inside each area, project folders are named with a subfield prefix, for example `physics/quantum_mechanics_klein_gordon_equation` and `physics/relativity_e_mc_squared`.
 
 ```text
-math_algebra/
-math_calculus_analysis/
-math_high_school/
-math_number_theory/
-
-phys_classical_mechanics/
-phys_quantum_mechanics/
-phys_relativity/
-phys_warp_drive/
-
+physics/
+mathematics/
+computer_science/
+statistics/
 artificial_intelligence/
-data_science/
-stats_biostatistics/
 history_of_science/
 ```
 
-The automated workflow only updates the YouTube metadata workbook stored in `data/videos_canal_youtube.xlsx`. The scientific and educational materials are curated manually.
+The automated workflow only updates the YouTube metadata workbook stored in `data/videos_canal_youtube.xlsx`. Scientific and educational materials are curated manually.
 
 ## Author
 
