@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - agent/reconcile-video-folders-latest
+  pull_request:
+    branches:
+      - main
 jobs:
   inspect:
     runs-on: ubuntu-latest
