@@ -1,0 +1,55 @@
+name: tmp-inspect-organization
+on:
+  push:
+    branches:
+      - agent/reconcile-video-folders-latest
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract analytic table
+        shell: bash
+        run: |
+          python - <<'PY'
+          import zipfile, xml.etree.ElementTree as ET, re
+          from pathlib import Path
+          path = Path('organization.xlsx')
+          ns = {'m':'http://schemas.openxmlformats.org/spreadsheetml/2006/main','r':'http://schemas.openxmlformats.org/officeDocument/2006/relationships'}
+          with zipfile.ZipFile(path) as z:
+              shared=[]
+              if 'xl/sharedStrings.xml' in z.namelist():
+                  root=ET.fromstring(z.read('xl/sharedStrings.xml'))
+                  for si in root.findall('m:si',ns):
+                      shared.append(''.join(t.text or '' for t in si.iter('{%s}t'%ns['m'])))
+              wb=ET.fromstring(z.read('xl/workbook.xml'))
+              rel=ET.fromstring(z.read('xl/_rels/workbook.xml.rels'))
+              relmap={x.attrib['Id']:x.attrib['Target'] for x in rel}
+              sheets=[]
+              for s in wb.find('m:sheets',ns):
+                  name=s.attrib['name']; rid=s.attrib['{%s}id'%ns['r']]
+                  target=relmap[rid]
+                  target=('xl/'+target) if not target.startswith('/') else target.lstrip('/')
+                  sheets.append((name,target))
+              print('SHEETS\t'+' | '.join(n for n,_ in sheets))
+              for name,target in sheets:
+                  if name.lower() not in {'produção','producao','matriz'}: continue
+                  root=ET.fromstring(z.read(target)); print(f'### SHEET: {name}')
+                  for row in root.findall('.//m:sheetData/m:row',ns):
+                      vals={}
+                      for c in row.findall('m:c',ns):
+                          ref=c.attrib.get('r',''); m=re.match(r'[A-Z]+',ref)
+                          if not m: continue
+                          col=m.group(0)
+                          if col > 'H': continue
+                          typ=c.attrib.get('t'); v=c.find('m:v',ns); val=''
+                          if typ=='s' and v is not None:
+                              i=int(v.text); val=shared[i] if 0 <= i < len(shared) else ''
+                          elif typ=='inlineStr':
+                              isel=c.find('m:is',ns)
+                              if isel is not None: val=''.join(t.text or '' for t in isel.iter('{%s}t'%ns['m']))
+                          elif v is not None: val=v.text or ''
+                          vals[col]=val.replace('\n',' ').replace('\t',' ')
+                      ordered=[vals.get(chr(ord('A')+i),'') for i in range(8)]
+                      if any(ordered): print(str(row.attrib.get('r',''))+'\t'+'\t'.join(ordered))
+          PY
